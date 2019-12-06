@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="ORF1" tvg-id="ORF1.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf1hd.png",ORF eins HD
+https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest_6.m3u8
+#EXTINF:-1 tvg-name="ORF2" tvg-id="ORF2.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf2hd.png",ORF 2 HD
+https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest_6.m3u8
+#EXTINF:-1, tvg-name="ATV"
+plugin://plugin.video.zappntv/category/livestream/atv
 #EXTINF:-1 tvg-name="Das Erste HD" tvg-id="ARD.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste HD
 https://mcdn.daserste.de/daserste/de/master_3744.m3u8
 #EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD

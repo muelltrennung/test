@@ -3,8 +3,58 @@
 https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest_6.m3u8
 #EXTINF:-1 tvg-name="ORF2" tvg-id="ORF2.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf2hd.png",ORF 2 HD
 https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest_6.m3u8
-#EXTINF:-1, tvg-name="ATV"
+#EXTINF:-1 tvg-name="ORF III HD" tvg-id="ORF3.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf3hd.png",ORF III HD
+https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest_6.m3u8
+#EXTINF:-1 tvg-name="ORF SPORT +" tvg-id="ORFSport.at" group-title="International;Sport" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orfsportplushd.png",ORF SPORT +
+https://orfs.mdn.ors.at/out/u/orfs/qxb/manifest_6.m3u8
+#EXTINF:-1 tvg-name="Tirol TV" tvg-id="" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tiroltv.png",Tirol TV
+http://lb.hd-livestream.de:1935/live/TirolTV/playlist.m3u8
+#EXTINF:-1 tvg-name="oe24 TV" tvg-id="" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/oe24tv.png",oe24 TV
+http://apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/playlist.m3u8
+#EXTINF:-1 tvg-name="W24 TV" tvg-id="W24.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/w24.png",W24 TV
+http://ms02.w24.at/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 tvg-name="ServusTV HD (AT)" tvg-id="ServusTV.at" group-title="International;Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/servustvhd.png",ServusTV HD (AT)
+http://hdiosstv-f.akamaihd.net/i/servustvhd_1@51229/index_2592_av-p.m3u8
+#EXTINF:-1 tvg-name="gotv" tvg-id="Gotv.at" group-title="International;Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/gotv.png",gotv
+http://nstream17.gotv.at:1938/live/gotvlive_576p/playlist.m3u8
+#EXTINF:-1 tvg-name="Okto" tvg-id="OKTO.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okto.png",Okto
+https://d38d1dtxhym0zi.cloudfront.net/LiveHTTPOrigin/okto/playlist.m3u8
+#EXTINF:-1, ATV
 plugin://plugin.video.zappntv/category/livestream/atv
+#EXTINF:-1, ATV2
+plugin://plugin.video.zappntv/category/livestream/atv2
+#EXTINF:-1, Puls4
+plugin://plugin.video.zappntv/category/livestream/puls4_at
+#EXTINF:-1, ServusTV
+plugin://plugin.video.zappntv/category/livestream/servustv
+#EXTINF:-1, SchauTV
+plugin://plugin.video.zappntv/category/livestream/schautv
+#EXTINF:-1, Puls24
+plugin://plugin.video.zappntv/category/livestream/popuptv
+#EXTINF:-1, KabelEins
+plugin://plugin.video.zappntv/category/livestream/kabeleins_at
+#EXTINF:-1, KabelEinsDoku
+plugin://plugin.video.zappntv/category/livestream/kabeleinsdoku_at
+#EXTINF:-1, ProSieben
+plugin://plugin.video.zappntv/category/livestream/prosieben_at
+#EXTINF:-1, ProSiebenMaxx
+plugin://plugin.video.zappntv/category/livestream/prosiebenmaxx_at
+#EXTINF:-1, Sat1
+plugin://plugin.video.zappntv/category/livestream/sat1_at
+#EXTINF:-1, Sat1 Gold
+plugin://plugin.video.zappntv/category/livestream/sat1gold_at
+#EXTINF:-1, Sixx
+plugin://plugin.video.zappntv/category/livestream/sixx_at
+#EXTINF:-1, TLC
+plugin://plugin.video.zappntv/category/livestream/tlc_de
+#EXTINF:-1, DMAX
+plugin://plugin.video.zappntv/category/livestream/dmax_de
+#EXTINF:-1, 7Sports Edge
+plugin://plugin.video.zappntv/category/livestream/edge
+#EXTINF:-1, KroneHitTV
+plugin://plugin.video.zappntv/category/livestream/kronehittv
+#EXTINF:-1 tvg-name="Kronehit TV" tvg-id="" group-title="International;Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kronehittv.png",Kronehit TV
+https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:-1 tvg-name="Das Erste HD" tvg-id="ARD.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste HD
 https://mcdn.daserste.de/daserste/de/master_3744.m3u8
 #EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD

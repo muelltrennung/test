@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="ORF1" tvg-id="ORF1.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf1hd.png",ORF eins
-https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest_6.m3u8
+plugin://plugin.video.zappntv/category/livestream/orf1
 #EXTINF:-1 tvg-name="ORF2" tvg-id="ORF2.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf2hd.png",ORF 2
 https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest_6.m3u8
 #EXTINF:-1, ATV
@@ -9,6 +9,8 @@ plugin://plugin.video.zappntv/category/livestream/atv
 plugin://plugin.video.zappntv/category/livestream/prosieben_at
 #EXTINF:-1 tvg-name="Das Erste HD" tvg-id="ARD.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste
 https://mcdn.daserste.de/daserste/de/master_3744.m3u8
+#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
+plugin://plugin.video.joyn_app/category/livestream/zdf
 #EXTINF:-1 tvg-id="Sat1.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sat_1_hd.png", SAT.1
 plugin://plugin.video.zappntv/category/livestream/sat1_at
 #EXTINF:-1, Puls4
@@ -77,10 +79,8 @@ https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:7649-sbr/playl
 http://62.67.13.53:1935/HealthTV/ghtv_live_master.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Kronehit TV" tvg-id="" group-title="International;Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kronehittv.png",Kronehit TV
 https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:-1, 7Sports Edge
-plugin://plugin.video.zappntv/category/livestream/edge
-#EXTINF:-1, KroneHitTV
-plugin://plugin.video.zappntv/category/livestream/kronehittv
+#EXTINF:-1, CineplexxTV
+plugin://plugin.video.zappntv/category/livestream/popuptv2
 #EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
 https://zdf-hls-01.akamaized.net/hls/live/2002460/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-name="ARTE HD" tvg-id="ARTE.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png",ARTE HD

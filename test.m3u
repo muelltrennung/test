@@ -11,6 +11,12 @@ plugin://plugin.video.zappntv/category/livestream/prosieben_at
 https://mcdn.daserste.de/daserste/de/master_3744.m3u8
 #EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
 plugin://plugin.video.joyn_app/category/livestream/zdf
+#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",3sat1
+plugin://plugin.video.joyn_app/category/live/3sat-de-hd
+#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",3sat2
+plugin://plugin.video.joyn_app/category/live/3sat
+#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",3sat3
+plugin://plugin.video.joyn_app/category/live/3sat-de-hd/3sat
 #EXTINF:-1 tvg-id="Sat1.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sat_1_hd.png", SAT.1
 plugin://plugin.video.zappntv/category/livestream/sat1_at
 #EXTINF:-1, Puls4

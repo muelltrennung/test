@@ -5,74 +5,18 @@ plugin://plugin.video.zappntv/category/livestream/orf1
 https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest_6.m3u8
 #EXTINF:-1, ATV
 plugin://plugin.video.zappntv/category/livestream/atv
-#EXTINF:-1, 3Sat
-plugin://plugin.video.joyn_app/live/3sat-de-hd/3sat
-#EXTINF:-1, ARD-alpha
-plugin://plugin.video.joyn_app/live/ard-alpha-de-hd/ARD-alpha
-#EXTINF:-1, Bloomberg
-plugin://plugin.video.joyn_app/live/bloomberg/Bloomberg
-#EXTINF:-1, BR Fernsehen Süd
-plugin://plugin.video.joyn_app/live/br-sued-de-hd/BR%2520Fernsehen%2520S%2526%2523252%253Bd
-#EXTINF:-1, CNBC
-plugin://plugin.video.joyn_app/live/cnbc/CNBC
-#EXTINF:-1, Comedy Central
-plugin://plugin.video.joyn_app/live/comedy-central-de/Comedy%2520Central
-#EXTINF:-1, Das Erste
-plugin://plugin.video.joyn_app/live/daserste-de-hd/Das Erste
-#EXTINF:-1, Deluxe Music
-plugin://plugin.video.joyn_app/live/deluxe-de/Deluxe%2520Music
-#EXTINF:-1, DMAX
-plugin://plugin.video.joyn_app/live/dmax-de/DMAX
-#EXTINF:-1, Eurosport 1
-plugin://plugin.video.joyn_app/live/eurosport1-de/Eurosport%25201
-#EXTINF:-1, hr
-plugin://plugin.video.joyn_app/live/hr-de-hd/Hessischer%2520Rundfunk
-#EXTINF:-1, HGTV!
-plugin://plugin.video.joyn_app/live/hr-de-hd/Hessischer%2520Rundfunk
-#EXTINF:-1, Joyn Primetime
-plugin://plugin.video.joyn_app/live/joyn-primetime-de-hd/Joyn%2520Primetime
-#EXTINF:-1, KiKa
-plugin://plugin.video.joyn_app/live/kika-de-hd/KiKA
-#EXTINF:-1, MDR Sachsen
-plugin://plugin.video.joyn_app/live/mdr-sachsen-de-hd/MDR%2520Sachsen
-#EXTINF:-1, N24 Doku
-plugin://plugin.video.joyn_app/live/n24-de/N24%2520Doku
-#EXTINF:-1, NDR Hamburg
-plugin://plugin.video.joyn_app/live/ndr-hh-de-hd/NDR%2520Hamburg
-#EXTINF:-1, Nick
-plugin://plugin.video.joyn_app/live/nickelodeon-de/Nick
-#EXTINF:-1, One
-plugin://plugin.video.joyn_app/live/one-de-hd/ONE
-#EXTINF:-1, Phoenix
-plugin://plugin.video.joyn_app/live/phoenix-de-hd/Phoenix
-#EXTINF:-1, rbb Berlin
-plugin://plugin.video.joyn_app/live/rbb-berlin-de-hd/RBB%2520Berlin
-#EXTINF:-1, Sport1
-plugin://plugin.video.joyn_app/live/sport1-de/Sport1
-#EXTINF:-1, SWR BW
-plugin://plugin.video.joyn_app/live/swr-bw-de-hd/SWR%20Baden-W%26%23252%3Brttemberg
-#EXTINF:-1, tagesschau24
-plugin://plugin.video.joyn_app/live/tagesschau24-de-hd/Tagesschau%252024
-#EXTINF:-1, TLC!
-plugin://plugin.video.joyn_app/live/swr-bw-de-hd/SWR%20Baden-W%26%23252%3Brttemberg
-#EXTINF:-1, WDR Köln
-plugin://plugin.video.joyn_app/live/wdr-koeln-de-hd/WDR%2520K%2526%2523246%253Bln
-#EXTINF:-1, WELT
-plugin://plugin.video.joyn_app/live/welt-de/WELT
-#EXTINF:-1, tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
-plugin://plugin.video.joyn_app/live/zdf-de-hd/ZDF
-#EXTINF:-1, ZDFinfo
-plugin://plugin.video.joyn_app/live/live/zdfinfo-de-hd/ZDF%2520info
-#EXTINF:-1, ZDFneo
-plugin://plugin.video.joyn_app/live/zdfneo-de-hd/ZDF%2520neo
 #EXTINF:-1 tvg-id="Pro7.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/pro7_ch_hd.png", ProSieben
 plugin://plugin.video.zappntv/category/livestream/prosieben_at
 #EXTINF:-1 tvg-name="Das Erste HD" tvg-id="ARD.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste
-https://mcdn.daserste.de/daserste/de/master_3744.m3u8
+plugin://plugin.video.joyn_app/live/daserste-de-hd/Das Erste
+#EXTINF:-1, tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
+plugin://plugin.video.joyn_app/live/zdf-de-hd/ZDF
 #EXTINF:-1 tvg-id="Sat1.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sat_1_hd.png", SAT.1
 plugin://plugin.video.zappntv/category/livestream/sat1_at
 #EXTINF:-1, Puls4
 plugin://plugin.video.zappntv/category/livestream/puls4_at
+#EXTINF:-1, Comedy Central
+plugin://plugin.video.joyn_app/live/comedy-central-de/Comedy%2520Central
 #EXTINF:-1 tvg-id="Kabel.ch" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/kabel_1_hd.png", Kabel Eins
 plugin://plugin.video.zappntv/category/livestream/kabeleins_at
 #EXTINF:-1 tvg-id="Sixx.ch" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sixx_hd.png", sixx
@@ -81,90 +25,100 @@ plugin://plugin.video.zappntv/category/livestream/sixx_at
 plugin://plugin.video.zappntv/category/livestream/prosiebenmaxx_at
 #EXTINF:-1, ATV2
 plugin://plugin.video.zappntv/category/livestream/atv2
+#EXTINF:-1 tvg-name="ZDFneo HD" tvg-id="ZDFneo.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfneohd.png",ZDFneo HD
+plugin://plugin.video.joyn_app/live/zdfneo-de-hd/ZDF%2520neo
 #EXTINF:-1 tvg-name="ORF III HD" tvg-id="ORF3.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orf3hd.png",ORF III HD
 https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest_6.m3u8
 #EXTINF:-1 tvg-name="3sat" tvg-id="3sat.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png",3sat
 https://zdfhls18-i.akamaihd.net/hls/live/744751/dach/3/3.m3u8
+#EXTINF:-1, 3Sat
+plugin://plugin.video.joyn_app/live/3sat-de-hd/3sat
 #EXTINF:-1 tvg-name="ServusTV HD (AT)" tvg-id="ServusTV.at" group-title="International;Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/servustvhd.png",ServusTV HD (AT)
 plugin://plugin.video.zappntv/category/livestream/servustv
+#EXTINF:-1 tvg-name="one HD" tvg-id="One.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/onehd.png",one HD
+plugin://plugin.video.joyn_app/live/one-de-hd/ONE
+#EXTINF:-1 tvg-name="ZDFinfo HD" tvg-id="ZDFinfo.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfinfo.png",ZDFinfo HD
+plugin://plugin.video.joyn_app/live/zdfinfo-de-hd/ZDF%2520info
 #EXTINF:-1, Puls24
 plugin://plugin.video.zappntv/category/livestream/popuptv
 #EXTINF:-1 tvg-name="oe24 TV" tvg-id="" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/oe24tv.png",oe24 TV
 http://apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/playlist.m3u8
+#EXTINF:-1, tagesschau24
+plugin://plugin.video.joyn_app/live/tagesschau24-de-hd/Tagesschau%252024
 #EXTINF:-1 tvg-name="tagesschau24" tvg-id="tagesschau24.de" group-title="Nachrichten" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tagesschau24.png",tagesschau24
 https://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8
 #EXTINF:-1 tvg-name="WELT" tvg-id="n24.de" group-title="Nachrichten;Dokumentationen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/welt.png",WELT
 http://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-b.m3u8
+#EXTINF:-1, WELT
+plugin://plugin.video.joyn_app/live/welt-de/WELT
 #EXTINF:-1 tvg-name="Sky Sport News HD" tvg-id="SkySportNewsHD.de" group-title="Nachrichten;Sport" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/skysportnewshd.png",Sky Sport News HD
 https://eventhlshttps-i.akamaihd.net/hls/live/263645/ssn-hd-https/indexvideo-3400.m3u8
 #EXTINF:-1 tvg-name="Tirol TV" tvg-id="" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tiroltv.png",Tirol TV
 http://lb.hd-livestream.de:1935/live/TirolTV/playlist.m3u8
-#EXTINF:-1 tvg-name="gotv" tvg-id="Gotv.at" group-title="International;Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/gotv.png",gotv
-http://nstream17.gotv.at:1938/live/gotvlive_576p/playlist.m3u8
 #EXTINF:-1 tvg-name="DELUXE MUSIC" tvg-id="DeLuxeMusic.de" group-title="Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/deluxemusic.png",DELUXE MUSIC
 http://streaming-02.mivitec.net/live/smil:test.smil/playlist.m3u8
+#EXTINF:-1, Deluxe Music
+plugin://plugin.video.joyn_app/live/deluxe-de/Deluxe%2520Music
 #EXTINF:-1 tvg-id="Sat1Gold.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sat_1_gold.png", Sat.1 Gold
 plugin://plugin.video.zappntv/category/livestream/sat1gold_at
 #EXTINF:-1 tvg-name="NDR Hamburg HD" tvg-id="ndr.de" group-title="Regional" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ndrhd.png",NDR Hamburg HD
-https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/index_3776_av-p.m3u8
+plugin://plugin.video.joyn_app/live/ndr-hh-de-hd/NDR%2520Hamburg
+#EXTINF:-1, WDR Köln
+plugin://plugin.video.joyn_app/live/wdr-koeln-de-hd/WDR%2520K%2526%2523246%253Bln
+#EXTINF:-1, BR Fernsehen Süd
+plugin://plugin.video.joyn_app/live/br-sued-de-hd/BR%2520Fernsehen%2520S%2526%2523252%253Bd
+#EXTINF:-1, SWR BW
+plugin://plugin.video.joyn_app/live/swr-bw-de-hd/SWR%20Baden-W%26%23252%3Brttemberg
+#EXTINF:-1, rbb Berlin
+plugin://plugin.video.joyn_app/live/rbb-berlin-de-hd/RBB%2520Berlin
+#EXTINF:-1, MDR Sachsen
+plugin://plugin.video.joyn_app/live/mdr-sachsen-de-hd/MDR%2520Sachsen
+#EXTINF:-1, hr
+plugin://plugin.video.joyn_app/live/hr-de-hd/Hessischer%2520Rundfunk
 #EXTINF:-1 tvg-name="Deutsche Welle" tvg-id="DeutscheWelleDE.de" group-title="Regional" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/deutschewelle.png",Deutsche Welle
 https://dwstream6-lh.akamaihd.net/i/dwstream6_live@123962/index_1_av-p.m3u8
 #EXTINF:-1 tvg-name="phoenix HD" tvg-id="phoenix.de" group-title="Nachrichten" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png",phoenix
-https://zdfhls19-i.akamaihd.net/hls/live/744752/de/5/5.m3u8
+plugin://plugin.video.joyn_app/live/phoenix-de-hd/Phoenix
 #EXTINF:-1 tvg-name="ORF SPORT +" tvg-id="ORFSport.at" group-title="International;Sport" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/orfsportplushd.png",ORF SPORT +
 https://orfs.mdn.ors.at/out/u/orfs/qxb/manifest_6.m3u8
+#EXTINF:-1, Sport1
+plugin://plugin.video.joyn_app/live/sport1-de/Sport1
+#EXTINF:-1, Eurosport 1
+plugin://plugin.video.joyn_app/live/eurosport1-de/Eurosport%25201
 #EXTINF:-1, KabelEinsDoku
 plugin://plugin.video.zappntv/category/livestream/kabeleinsdoku_at
+#EXTINF:-1, N24 Doku
+plugin://plugin.video.joyn_app/live/n24-de/N24%2520Doku
 #EXTINF:-1, SchauTV
 plugin://plugin.video.zappntv/category/livestream/schautv
-#EXTINF:-1 tvg-name="W24 TV" tvg-id="W24.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/w24.png",W24 TV
-http://ms02.w24.at/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
-#EXTINF:-1 tvg-id="DMax.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/dmax.png", DMAX
-plugin://plugin.video.zappntv/category/livestream/dmax_de
-#EXTINF:-1 tvg-id="TLC.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/tlc_de.png", TLC Germany
-plugin://plugin.video.zappntv/category/livestream/tlc_de
+#EXTINF:-1 tvg-name="ARD-alpha" tvg-id="ARD-alpha.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ardalpha.png",ARD-alpha
+plugin://plugin.video.joyn_app/live/ard-alpha-de-hd/ARD-alpha
+#EXTINF:-1, DMAX
+plugin://plugin.video.joyn_app/live/dmax-de/DMAX
+#EXTINF:-1, TLC!
+plugin://plugin.video.joyn_app/live/swr-bw-de-hd/SWR%20Baden-W%26%23252%3Brttemberg
 #EXTINF:-1 tvg-name="MTV Germany" tvg-id="MTVGermany.de" group-title="Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mtvgermany.png",MTV Germany
 https://unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-p.m3u8
+#EXTINF:-1, HGTV!
+plugin://plugin.video.joyn_app/live/hr-de-hd/Hessischer%2520Rundfunk
+#EXTINF:-1 tvg-name="KiKA" tvg-id="Kika.de" group-title="Kinder / Jugend" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kika.png",KiKA
+plugin://plugin.video.joyn_app/live/kika-de-hd/KiKA
+#EXTINF:-1, Nick
+plugin://plugin.video.joyn_app/live/nickelodeon-de/Nick
 #EXTINF:-1 tvg-name="Nickelodeon" tvg-id="Nick.de" group-title="Kinder / Jugend" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nickelodeon.png",Nickelodeon
 http://unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-p.m3u8
 #EXTINF:-1 tvg-name="ANIXE HD" tvg-id="AnixeSerie.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/anixehd.png",ANIXE HD
 https://ma.anixa.tv/clips/stream/anixehd/index.m3u8
 #EXTINF:-1 tvg-name="Okto" tvg-id="OKTO.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okto.png",Okto
 https://d38d1dtxhym0zi.cloudfront.net/LiveHTTPOrigin/okto/playlist.m3u8
-#EXTINF:-1 tvg-name="tv.berlin" tvg-id="TVBerlin.de" group-title="Lokal" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvberlin.png",tv.berlin
-https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:7649-sbr/playlist.m3u8
 #EXTINF:-1 tvg-name="health.tv" tvg-id="" group-title="Sonstiges" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/healthtv.png",health.tv
 http://62.67.13.53:1935/HealthTV/ghtv_live_master.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Kronehit TV" tvg-id="" group-title="International;Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kronehittv.png",Kronehit TV
-https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:-1, CineplexxTV
-plugin://plugin.video.zappntv/category/livestream/popuptv2
-#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
-https://zdf-hls-01.akamaized.net/hls/live/2002460/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-name="ARTE HD" tvg-id="ARTE.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png",ARTE HD
-https://artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-p.m3u8
-#EXTINF:-1 tvg-name="ServusTV HD" tvg-id="ServusHD.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/servustvhd.png",ServusTV HD
-https://rbmn-live.akamaized.net/hls/live/2002830/geoSTVDEweb/master_6692.m3u8
-#EXTINF:-1 tvg-name="ARD-alpha" tvg-id="ARD-alpha.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ardalpha.png",ARD-alpha
-https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-name="one HD" tvg-id="One.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/onehd.png",one HD
-https://onelivestream-lh.akamaihd.net/i/one_livestream@568814/index_5_av-p.m3u8
-#EXTINF:-1 tvg-name="ZDFneo HD" tvg-id="ZDFneo.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfneohd.png",ZDFneo HD
-https://zdf-hls-02.akamaized.net/hls/live/2002461/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-name="ZDFinfo HD" tvg-id="ZDFinfo.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfinfo.png",ZDFinfo HD
-https://zdfhls17-i.akamaihd.net/hls/live/744750/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-name="eoTV HD" tvg-id="RiC.de" group-title="Filme / Serien" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/eotvhd.png",eoTV HD
-http://cdn-europe.smartcast.de:1935/eotvhd/eotvhd/playlist.m3u8
 #EXTINF:-1 tvg-name="RiC / eoTV" tvg-id="RiC.de" group-title="Filme / Serien;Kinder / Jugend" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ric.png",RiC / eoTV
 https://58b42f6c8c9bf.streamlock.net:8080/live/rictv/playlist.m3u8
-#EXTINF:-1 tvg-name="KiKA" tvg-id="Kika.de" group-title="Kinder / Jugend" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kika.png",KiKA
-https://kikade-lh.akamaihd.net/i/livetvkika_de@450035/index_3776_av-b.m3u8
-#EXTINF:-1 tvg-name="nice" tvg-id="" group-title="Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nice.png",nice
-https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/smil:4195-mbr.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-name="Folx TV" tvg-id="FolxTV.de" group-title="Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/folxtv.png",Folx TV
-http://46.101.244.86:8081/folx-abr/live-abr/playlist.m3u8
 #EXTINF:-1 tvg-name="Deutsches Musik Fernsehen" tvg-id="DeutschesMusikFernsehen.de" group-title="Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/deutschesmusikfernsehen.png",Deutsches Musik Fernsehen
 https://tv.artcom-venture.de/dmf/tv_720.m3u8
+#EXTINF:-1 tvg-name="Folx TV" tvg-id="FolxTV.de" group-title="Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/folxtv.png",Folx TV
+http://46.101.244.86:8081/folx-abr/live-abr/playlist.m3u8
 #EXTINF:-1 tvg-name="Bibel TV" tvg-id="BibelTV.de" group-title="Religion" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/bibeltv.png",Bibel TV
 http://bibeltv02.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-name="K-TV" tvg-id="KTV.de" group-title="Religion" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ktv.png",K-TV
@@ -173,5 +127,29 @@ http://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8
 http://d3j0n5al39mfyd.cloudfront.net/p/GERG_1920x1080_4000k.m3u8
 #EXTINF:-1 tvg-name="ERF 1" tvg-id="ERFeins.de" group-title="Religion" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/erf1.png",ERF 1
 http://14000-l.z.core.cdn.streamfarm.net/007erfiphonelive/smil:stream_live.smil/chunklist_w1563145417_b240000.m3u8
+#EXTINF:-1 tvg-name="nice" tvg-id="" group-title="Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nice.png",nice
+https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/smil:4195-mbr.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-name="Kronehit TV" tvg-id="" group-title="International;Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kronehittv.png",Kronehit TV
+https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
+#EXTINF:-1, Bloomberg
+plugin://plugin.video.joyn_app/live/bloomberg/Bloomberg
+#EXTINF:-1, CNBC
+plugin://plugin.video.joyn_app/live/cnbc/CNBC
+#EXTINF:-1, Joyn Primetime
+plugin://plugin.video.joyn_app/live/joyn-primetime-de-hd/Joyn%2520Primetime
+#EXTINF:-1, CineplexxTV
+plugin://plugin.video.zappntv/category/livestream/popuptv2
 #EXTINF:-1 tvg-name="VISIT-X.tv" tvg-id="" group-title="Sonstiges" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/visitxtv.png",VISIT-X.tv
 https://stream.visit-x.tv/vxtv/live/playlist.m3u8
+#EXTINF:-1 tvg-name="gotv" tvg-id="Gotv.at" group-title="International;Musik" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/gotv.png",gotv
+http://nstream17.gotv.at:1938/live/gotvlive_576p/playlist.m3u8
+#EXTINF:-1 tvg-name="W24 TV" tvg-id="W24.at" group-title="International" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/w24.png",W24 TV
+http://ms02.w24.at/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 tvg-name="tv.berlin" tvg-id="TVBerlin.de" group-title="Lokal" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvberlin.png",tv.berlin
+https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:7649-sbr/playlist.m3u8
+#EXTINF:-1 tvg-name="ARTE HD" tvg-id="ARTE.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png",ARTE HD
+https://artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-p.m3u8
+#EXTINF:-1 tvg-name="ServusTV HD" tvg-id="ServusHD.de" group-title="Spartenprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/servustvhd.png",ServusTV HD
+https://rbmn-live.akamaized.net/hls/live/2002830/geoSTVDEweb/master_6692.m3u8
+#EXTINF:-1 tvg-name="eoTV HD" tvg-id="RiC.de" group-title="Filme / Serien" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/eotvhd.png",eoTV HD
+http://cdn-europe.smartcast.de:1935/eotvhd/eotvhd/playlist.m3u8

@@ -5,18 +5,70 @@ plugin://plugin.video.zappntv/category/livestream/orf1
 https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest_6.m3u8
 #EXTINF:-1, ATV
 plugin://plugin.video.zappntv/category/livestream/atv
+#EXTINF:-1, 3Sat
+plugin://plugin.video.joyn_app/live/3sat-de-hd/3sat
+#EXTINF:-1, ARD-alpha
+plugin://plugin.video.joyn_app/live/ard-alpha-de-hd/ARD-alpha
+#EXTINF:-1, Bloomberg
+plugin://plugin.video.joyn_app/live/bloomberg/Bloomberg
+#EXTINF:-1, BR Fernsehen Süd
+plugin://plugin.video.joyn_app/live/br-sued-de-hd/BR%2520Fernsehen%2520S%2526%2523252%253Bd
+#EXTINF:-1, CNBC
+plugin://plugin.video.joyn_app/live/cnbc/CNBC
+#EXTINF:-1, Comedy Central
+plugin://plugin.video.joyn_app/live/comedy-central-de/Comedy%2520Central
+#EXTINF:-1, Das Erste
+plugin://plugin.video.joyn_app/live/daserste-de-hd/Das Erste
+#EXTINF:-1, Deluxe Music
+plugin://plugin.video.joyn_app/live/deluxe-de/Deluxe%2520Music
+#EXTINF:-1, DMAX
+plugin://plugin.video.joyn_app/live/dmax-de/DMAX
+#EXTINF:-1, Eurosport 1
+plugin://plugin.video.joyn_app/live/eurosport1-de/Eurosport%25201
+#EXTINF:-1, hr
+plugin://plugin.video.joyn_app/live/hr-de-hd/Hessischer%2520Rundfunk
+#EXTINF:-1, HGTV!
+plugin://plugin.video.joyn_app/live/hr-de-hd/Hessischer%2520Rundfunk
+#EXTINF:-1, Joyn Primetime
+plugin://plugin.video.joyn_app/live/joyn-primetime-de-hd/Joyn%2520Primetime
+#EXTINF:-1, KiKa
+plugin://plugin.video.joyn_app/live/kika-de-hd/KiKA
+#EXTINF:-1, MDR Sachsen
+plugin://plugin.video.joyn_app/live/mdr-sachsen-de-hd/MDR%2520Sachsen
+#EXTINF:-1, N24 Doku
+plugin://plugin.video.joyn_app/live/n24-de/N24%2520Doku
+#EXTINF:-1, NDR Hamburg
+plugin://plugin.video.joyn_app/live/ndr-hh-de-hd/NDR%2520Hamburg
+#EXTINF:-1, Nick
+plugin://plugin.video.joyn_app/live/nickelodeon-de/Nick
+#EXTINF:-1, One
+plugin://plugin.video.joyn_app/live/one-de-hd/ONE
+#EXTINF:-1, Phoenix
+plugin://plugin.video.joyn_app/live/phoenix-de-hd/Phoenix
+#EXTINF:-1, rbb Berlin
+plugin://plugin.video.joyn_app/live/rbb-berlin-de-hd/RBB%2520Berlin
+#EXTINF:-1, Sport1
+plugin://plugin.video.joyn_app/live/sport1-de/Sport1
+#EXTINF:-1, SWR BW
+plugin://plugin.video.joyn_app/live/swr-bw-de-hd/SWR%20Baden-W%26%23252%3Brttemberg
+#EXTINF:-1, tagesschau24
+plugin://plugin.video.joyn_app/live/tagesschau24-de-hd/Tagesschau%252024
+#EXTINF:-1, TLC!
+plugin://plugin.video.joyn_app/live/swr-bw-de-hd/SWR%20Baden-W%26%23252%3Brttemberg
+#EXTINF:-1, WDR Köln
+plugin://plugin.video.joyn_app/live/wdr-koeln-de-hd/WDR%2520K%2526%2523246%253Bln
+#EXTINF:-1, WELT
+plugin://plugin.video.joyn_app/live/welt-de/WELT
+#EXTINF:-1, tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
+plugin://plugin.video.joyn_app/live/zdf-de-hd/ZDF
+#EXTINF:-1, ZDFinfo
+plugin://plugin.video.joyn_app/live/live/zdfinfo-de-hd/ZDF%2520info
+#EXTINF:-1, ZDFneo
+plugin://plugin.video.joyn_app/live/zdfneo-de-hd/ZDF%2520neo
 #EXTINF:-1 tvg-id="Pro7.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/pro7_ch_hd.png", ProSieben
 plugin://plugin.video.zappntv/category/livestream/prosieben_at
 #EXTINF:-1 tvg-name="Das Erste HD" tvg-id="ARD.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png",Das Erste
 https://mcdn.daserste.de/daserste/de/master_3744.m3u8
-#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",ZDF HD
-plugin://plugin.video.joyn_app/live/cnbc/CNBC
-#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",3sat1
-plugin://plugin.video.joyn_app/category/live/3sat-de-hd
-#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",3sat2
-plugin://plugin.video.joyn_app/category/live/3sat
-#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png",3sat3
-plugin://plugin.video.joyn_app/category/live/3sat-de-hd/3sat
 #EXTINF:-1 tvg-id="Sat1.de" group-title="Unterhaltung" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sat_1_hd.png", SAT.1
 plugin://plugin.video.zappntv/category/livestream/sat1_at
 #EXTINF:-1, Puls4

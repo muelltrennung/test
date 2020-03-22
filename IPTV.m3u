@@ -1,3 +1,7 @@
 #EXTM3U
 #EXTINF:0,Tirol TV
 http://lb.hd-livestream.de:1935/live/TirolTV/playlist.m3u8
+#EXTINF:0,Okto
+https://d38d1dtxhym0zi.cloudfront.net/LiveHTTPOrigin/okto/playlist.m3u8
+#EXTINF:0,MTV Music24
+http://unilivemtveu-lh.akamaihd.net/i/mtvmusic24_1@134926/index_3500_av-b.m3u8

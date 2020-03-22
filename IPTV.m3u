@@ -21,6 +21,8 @@ https://dwstream52-lh.akamaihd.net/i/dwstream52_live@500528/index_1_av-p.m3u8
 http://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-b.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WELT Nachrichten" tvg-language="" tvg-logo="" group-title="",WELT Nachrichten
 https://news2weltcms-lh.akamaihd.net/i/News2WeltCMS_1@425444/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="tagesschau24" tvg-language="" tvg-logo="" group-title="",tagesschau24
+http:\\tagesschau-lh.akamaihd.net\i\tagesschau_1@119231\index_3776_av-b.m3u8?sd=10&rebase=on
 #EXTINF:-1 tvg-id="" tvg-name="MTV Germany" tvg-language="" tvg-logo="" group-title="",MTV Germany
 https://unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SkySportNews" tvg-language="" tvg-logo="" group-title="",SkySportNews

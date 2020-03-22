@@ -1,7 +1,35 @@
 #EXTM3U
-#EXTINF:0,Tirol TV
+#EXTINF:-1 tvg-id="" tvg-name="TirolTV" tvg-language="DE" tvg-logo="" group-title="",TirolTV
 http://lb.hd-livestream.de:1935/live/TirolTV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Okto" tvg-language="DE" tvg-logo="" group-title="",Okto
 https://d38d1dtxhym0zi.cloudfront.net/LiveHTTPOrigin/okto/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MTV Music24 " tvg-language="" tvg-logo="" group-title="",MTV Music24 
+#EXTINF:-1 tvg-id="" tvg-name="Ländle TV" tvg-language="" tvg-logo="" group-title="",Ländle TV
+https://58b42f6c8c9bf.streamlock.net:8080/live/LaendleTV/chunklist_w364023246.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="W24" tvg-language="" tvg-logo="" group-title="",W24
+https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="oe24.tv" tvg-language="" tvg-logo="" group-title="",oe24.tv
+http://apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="kronehit.tv" tvg-language="" tvg-logo="" group-title="",kronehit.tv
+https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV Music24" tvg-language="" tvg-logo="" group-title="",MTV Music24 
 http://unilivemtveu-lh.akamaihd.net/i/mtvmusic24_1@134926/index_3500_av-b.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DW Deutsch" tvg-language="" tvg-logo="" group-title="",DW Deutsch
+https://dwstream6-lh.akamaihd.net/i/dwstream6_live@123962/index_1_av-p.m3u
+#EXTINF:-1 tvg-id="" tvg-name="DW Deutsch+" tvg-language="" tvg-logo="" group-title="",DW Deutsch+
+https://dwstream52-lh.akamaihd.net/i/dwstream52_live@500528/index_1_av-p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="WELT" tvg-language="" tvg-logo="" group-title="",WELT
+http://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-b.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="WELT Nachrichten" tvg-language="" tvg-logo="" group-title="",WELT Nachrichten
+https://news2weltcms-lh.akamaihd.net/i/News2WeltCMS_1@425444/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV Germany" tvg-language="" tvg-logo="" group-title="",MTV Germany
+https://unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SkySportNews" tvg-language="" tvg-logo="" group-title="",SkySportNews
+https://eventhlshttps-i.akamaihd.net/hls/live/263645/ssn-hd-https/indexvideo-3400.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Parlamentsfernsehen" tvg-language="" tvg-logo="" group-title="",Parlamentsfernsehen
+https://c13014-l-hls.u.core.cdn.streamfarm.net/1000153copo/hk1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DW English" tvg-language="" tvg-logo="" group-title="",DW English
+https://dwstream1-lh.akamaihd.net/i/dwstream1_live@120422/index_1_av-p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NBC 6 Miami FL (WTVJ)" tvg-language="" tvg-logo="" group-title="",NBC
+http://161.0.157.51/PLTV/88888888/224/3221227040/01.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CBS" tvg-language="" tvg-logo="" group-title="",CBS
+http://161.0.157.5/PLTV/88888888/224/3221227041/01.m3u8

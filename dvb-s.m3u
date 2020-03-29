@@ -48,9 +48,6 @@ http://10.0.0.10:8001/1:0:19:2E91:411:1:C00000:0:0:0:
 #EXTINF:-1 tvg-chno="61323" tvg-logo="http://10.0.0.10/picon/1_0_19_EF8B_3F9_1_C00000_0_0_0.png" tvg-id="1:0:19:EF8B:3F9:1:C00000:0:0:0:" tvg-name="sixx HD Austria",sixx HD Austria
 #EXTVLCOPT:program=61323
 http://10.0.0.10:8001/1:0:19:EF8B:3F9:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="4704" tvg-logo="http://10.0.0.10/picon/1_0_1_1260_3F7_1_C00000_0_0_0.png" tvg-id="1:0:19:1260:3F7:1:C00000:0:0:0:" tvg-name="3+",3+
-#EXTVLCOPT:program=4704
-http://10.0.0.10:8001/1:0:19:1260:3F7:1:C00000:0:0:0:
 #EXTINF:-1 tvg-chno="61324" tvg-logo="http://10.0.0.10/picon/1_0_19_EF8C_3F9_1_C00000_0_0_0.png" tvg-id="1:0:19:EF8C:3F9:1:C00000:0:0:0:" tvg-name="Pro7 MAXX HD Austria",Pro7 MAXX HD Austria
 #EXTVLCOPT:program=61324
 http://10.0.0.10:8001/1:0:19:EF8C:3F9:1:C00000:0:0:0:
@@ -105,12 +102,6 @@ http://10.0.0.10:8001/1:0:1:445F:453:1:C00000:0:0:0:
 #EXTINF:-1 tvg-chno="108" tvg-logo="http://10.0.0.10/picon/1_0_19_6C_C_85_C00000_0_0_0.png" tvg-id="1:0:19:6C:C:85:C00000:0:0:0:" tvg-name="Sky Sport News HD",Sky Sport News HD
 #EXTVLCOPT:program=108
 http://10.0.0.10:8001/1:0:19:6C:C:85:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="13316" tvg-logo="http://10.0.0.10/picon/1_0_16_3404_3ED_1_C00000_0_0_0.png" tvg-id="1:0:16:3404:3ED:1:C00000:0:0:0:" tvg-name="gotv neu",gotv neu
-#EXTVLCOPT:program=13316
-http://10.0.0.10:8001/1:0:16:3404:3ED:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="5513" tvg-logo="http://10.0.0.10/picon/1_0_19_1589_41F_1_C00000_0_0_0.png" tvg-id="1:0:19:1589:41F:1:C00000:0:0:0:" tvg-name="Deluxe Music HD Austria",Deluxe Music HD Austria
-#EXTVLCOPT:program=5513
-http://10.0.0.10:8001/1:0:19:1589:41F:1:C00000:0:0:0:
 #EXTINF:-1 tvg-chno="12520" tvg-logo="http://10.0.0.10/picon/1_0_19_30E8_413_1_C00000_0_0_0.png" tvg-id="1:0:19:30E8:413:1:C00000:0:0:0:" tvg-name="SAT.1 Gold HD Austria",SAT.1 Gold HD Austria
 #EXTVLCOPT:program=12520
 http://10.0.0.10:8001/1:0:19:30E8:413:1:C00000:0:0:0:
@@ -162,6 +153,9 @@ http://10.0.0.10:8001/1:0:1:4465:453:1:C00000:0:0:0:
 #EXTINF:-1 tvg-chno="48" tvg-logo="http://10.0.0.10/picon/1_0_1_30_5_85_C00000_0_0_0.png" tvg-id="1:0:1:30:5:85:C00000:0:0:0:" tvg-name="N24 DOKU",N24 DOKU
 #EXTVLCOPT:program=48
 http://10.0.0.10:8001/1:0:1:30:5:85:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="10377" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:2889:40F:1:C00000:0:0:0:" tvg-name="ARD-alpha HD",ARD-alpha HD
+#EXTVLCOPT:program=10377
+http://10.0.0.10:8001/1:0:19:2889:40F:1:C00000:0:0:0:
 #EXTINF:-1 tvg-chno="13103" tvg-logo="http://10.0.0.10/picon/1_0_1_332F_45B_1_C00000_0_0_0.png" tvg-id="1:0:1:332F:45B:1:C00000:0:0:0:" tvg-name="Welt der Wunder",Welt der Wunder
 #EXTVLCOPT:program=13103
 http://10.0.0.10:8001/1:0:1:332F:45B:1:C00000:0:0:0:
@@ -198,30 +192,105 @@ http://10.0.0.10:8001/1:0:1:2EFE:441:1:C00000:0:0:0:
 #EXTINF:-1 tvg-chno="11160" tvg-logo="http://10.0.0.10/picon/1_0_19_2B98_3F2_1_C00000_0_0_0.png" tvg-id="1:0:19:2B98:3F2:1:C00000:0:0:0:" tvg-name="KiKA HD",KiKA HD
 #EXTVLCOPT:program=11160
 http://10.0.0.10:8001/1:0:19:2B98:3F2:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="28680" tvg-logo="http://10.0.0.10/picon/1_0_1_7008_436_1_C00000_0_0_0.png" tvg-id="1:0:1:7008:436:1:C00000:0:0:0:" tvg-name="NICK/MTV+",NICK/MTV+
-#EXTVLCOPT:program=28680
-http://10.0.0.10:8001/1:0:1:7008:436:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="10101" tvg-logo="http://10.0.0.10/picon/1_0_19_2775_409_1_C00000_0_0_0.png" tvg-id="1:0:19:2775:409:1:C00000:0:0:0:" tvg-name="Zee One HD",Zee One HD
-#EXTVLCOPT:program=10101
-http://10.0.0.10:8001/1:0:19:2775:409:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="21100" tvg-logo="http://10.0.0.10/picon/1_0_19_526C_41D_1_C00000_0_0_0.png" tvg-id="1:0:19:526C:41D:1:C00000:0:0:0:" tvg-name="ANIXE HD",ANIXE HD
+#EXTINF:-1 tvg-chno="61" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:3D:7:85:C00000:0:0:0:" tvg-name="NICKELODEON AT",NICKELODEON AT
+#EXTVLCOPT:program=61
+http://10.0.0.10:8001/1:0:1:3D:7:85:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="21100" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:526C:41D:1:C00000:0:0:0:" tvg-name="ANIXE HD",ANIXE HD
 #EXTVLCOPT:program=21100
 http://10.0.0.10:8001/1:0:19:526C:41D:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="13104" tvg-logo="http://10.0.0.10/picon/1_0_1_3330_45B_1_C00000_0_0_0.png" tvg-id="1:0:16:3330:45B:1:C00000:0:0:0:" tvg-name="LT1-OOE",LT1-OOE
-#EXTVLCOPT:program=13104
-http://10.0.0.10:8001/1:0:16:3330:45B:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="5801" tvg-logo="http://10.0.0.10/picon/1_0_1_16A9_3FF_1_C00000_0_0_0.png" tvg-id="1:0:19:16A9:3FF:1:C00000:0:0:0:" tvg-name="münchen.tv HD",münchen.tv HD
-#EXTVLCOPT:program=5801
-http://10.0.0.10:8001/1:0:19:16A9:3FF:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="10377" tvg-logo="http://10.0.0.10/picon/1_0_19_2889_40F_1_C00000_0_0_0.png" tvg-id="1:0:19:2889:40F:1:C00000:0:0:0:" tvg-name="ARD-alpha HD",ARD-alpha HD
-#EXTVLCOPT:program=10377
-http://10.0.0.10:8001/1:0:19:2889:40F:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="12600" tvg-logo="http://10.0.0.10/picon/1_0_1_3138_459_1_C00000_0_0_0.png" tvg-id="1:0:1:3138:459:1:C00000:0:0:0:" tvg-name="health.tv",health.tv
-#EXTVLCOPT:program=12600
-http://10.0.0.10:8001/1:0:1:3138:459:1:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="764" tvg-logo="http://10.0.0.10/picon/1_0_1_2FC_5_85_C00000_0_0_0.png" tvg-id="1:0:19:2FC:5:85:C00000:0:0:0:" tvg-name="ANIXE+",ANIXE+
+#EXTINF:-1 tvg-chno="764" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:2FC:5:85:C00000:0:0:0:" tvg-name="ANIXE+",ANIXE+
 #EXTVLCOPT:program=764
 http://10.0.0.10:8001/1:0:19:2FC:5:85:C00000:0:0:0:
-#EXTINF:-1 tvg-chno="13019" tvg-logo="http://10.0.0.10/picon/1_0_1_32DB_45D_1_C00000_0_0_0.png" tvg-id="1:0:1:32DB:45D:1:C00000:0:0:0:" tvg-name="RiC",RiC
+#EXTINF:-1 tvg-chno="12600" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:3138:459:1:C00000:0:0:0:" tvg-name="health.tv",health.tv
+#EXTVLCOPT:program=12600
+http://10.0.0.10:8001/1:0:1:3138:459:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="13019" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:32DB:45D:1:C00000:0:0:0:" tvg-name="RiC",RiC
 #EXTVLCOPT:program=13019
 http://10.0.0.10:8001/1:0:1:32DB:45D:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="10101" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:2775:409:1:C00000:0:0:0:" tvg-name="Zee One HD",Zee One HD
+#EXTVLCOPT:program=10101
+http://10.0.0.10:8001/1:0:19:2775:409:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="13224" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:33A8:3EB:1:C00000:0:0:0:" tvg-name="Bibel TV HD",Bibel TV HD
+#EXTVLCOPT:program=13224
+http://10.0.0.10:8001/1:0:19:33A8:3EB:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="13104" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:16:3330:45B:1:C00000:0:0:0:" tvg-name="LT1-OOE",LT1-OOE
+#EXTVLCOPT:program=13104
+http://10.0.0.10:8001/1:0:16:3330:45B:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="5801" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:16A9:3FF:1:C00000:0:0:0:" tvg-name="münchen.tv HD",münchen.tv HD
+#EXTVLCOPT:program=5801
+http://10.0.0.10:8001/1:0:19:16A9:3FF:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="5800" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:16A8:3FF:1:C00000:0:0:0:" tvg-name="a.tv HD",a.tv HD
+#EXTVLCOPT:program=5800
+http://10.0.0.10:8001/1:0:19:16A8:3FF:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="5901" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:170D:419:1:C00000:0:0:0:" tvg-name="Franken Fernsehen HD",Franken Fernsehen HD
+#EXTVLCOPT:program=5901
+http://10.0.0.10:8001/1:0:19:170D:419:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="13316" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:16:3404:3ED:1:C00000:0:0:0:" tvg-name="gotv neu",gotv neu
+#EXTVLCOPT:program=13316
+http://10.0.0.10:8001/1:0:16:3404:3ED:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="5513" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:1589:41F:1:C00000:0:0:0:" tvg-name="Deluxe Music HD Austria",Deluxe Music HD Austria
+#EXTVLCOPT:program=5513
+http://10.0.0.10:8001/1:0:19:1589:41F:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="13013" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:32D5:45D:1:C00000:0:0:0:" tvg-name="HITRADIO OE3",HITRADIO OE3
+#EXTVLCOPT:program=13013
+http://10.0.0.10:8001/1:0:19:32D5:45D:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="125" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:7D:9:85:C00000:0:0:0:" tvg-name="CNBC HD",CNBC HD
+#EXTVLCOPT:program=125
+http://10.0.0.10:8001/1:0:19:7D:9:85:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="4422" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:1146:404:1:C00000:0:0:0:" tvg-name="CNN Int.",CNN Int.
+#EXTVLCOPT:program=4422
+http://10.0.0.10:8001/1:0:1:1146:404:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="4430" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:114E:404:1:C00000:0:0:0:" tvg-name="DW English",DW English
+#EXTVLCOPT:program=4430
+http://10.0.0.10:8001/1:0:1:114E:404:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="5001" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:1389:3EA:1:C00000:0:0:0:" tvg-name="BBC World News Europe HD",BBC World News Europe HD
+#EXTVLCOPT:program=5001
+http://10.0.0.10:8001/1:0:1:1389:3EA:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="7290" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:1C7A:457:1:C00000:0:0:0:" tvg-name="Sky News Intl",Sky News Intl
+#EXTVLCOPT:program=7290
+http://10.0.0.10:8001/1:0:1:1C7A:457:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="504" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:1F8:384:13E:820000:0:0:0:" tvg-name="NASA TV HD",NASA TV HD
+#EXTVLCOPT:program=504
+http://10.0.0.10:8001/1:0:1:1F8:384:13E:820000:0:0:0:
+#EXTINF:-1 tvg-chno="10067" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:2753:402:1:C00000:0:0:0:" tvg-name="Bloomberg Europe TV",Bloomberg Europe TV
+#EXTVLCOPT:program=10067
+http://10.0.0.10:8001/1:0:1:2753:402:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="6381" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:18ED:3F4:1:C00000:0:0:0:" tvg-name="RT HD",RT HD
+#EXTVLCOPT:program=6381
+http://10.0.0.10:8001/1:0:1:18ED:3F4:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="808" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:328:3BC4:13E:820000:0:0:0:" tvg-name="France 24 HD (in English)",France 24 HD (in English)
+#EXTVLCOPT:program=808
+http://10.0.0.10:8001/1:0:1:328:3BC4:13E:820000:0:0:0:
+#EXTINF:-1 tvg-chno="6918" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:1B06:3FE:1:C00000:0:0:0:" tvg-name="TRT World HD",TRT World HD
+#EXTVLCOPT:program=6918
+http://10.0.0.10:8001/1:0:1:1B06:3FE:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="5031" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:13A7:3EA:1:C00000:0:0:0:" tvg-name="Al Jazeera English HD",Al Jazeera English HD
+#EXTVLCOPT:program=5031
+http://10.0.0.10:8001/1:0:19:13A7:3EA:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="5021" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:139D:3EA:1:C00000:0:0:0:" tvg-name="NHK WORLD-JPN",NHK WORLD-JPN
+#EXTVLCOPT:program=5021
+http://10.0.0.10:8001/1:0:1:139D:3EA:1:C00000:0:0:0:
+#EXTINF:-1 tvg-chno="801" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:321:3BC4:13E:820000:0:0:0:" tvg-name="Euronews English HD",Euronews English HD
+#EXTVLCOPT:program=801
+http://10.0.0.10:8001/1:0:1:321:3BC4:13E:820000:0:0:0:
+#EXTINF:-1 tvg-chno="1310" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:51E:3D54:13E:820000:0:0:0:" tvg-name="i24News HD English",i24News HD English
+#EXTVLCOPT:program=1310
+http://10.0.0.10:8001/1:0:1:51E:3D54:13E:820000:0:0:0:
+#EXTINF:-1 tvg-chno="2002" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:7D2:22C4:13E:820000:0:0:0:" tvg-name="RT Doc HD",RT Doc HD
+#EXTVLCOPT:program=2002
+http://10.0.0.10:8001/1:0:1:7D2:22C4:13E:820000:0:0:0:
+#EXTINF:-1 tvg-chno="100" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:1:64:65:1:82AFC2:0:0:0:" tvg-name="VOA EU HD 100",VOA EU HD 100
+#EXTVLCOPT:program=100
+http://10.0.0.10:8001/1:0:1:64:65:1:82AFC2:0:0:0:
+#EXTINF:-1 tvg-chno="14051" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:36E3:6A4:13E:820000:0:0:0:" tvg-name="RSI LA 1 HD",RSI LA 1 HD
+#EXTVLCOPT:program=14051
+http://10.0.0.10:8001/1:0:19:36E3:6A4:13E:820000:0:0:0:
+#EXTINF:-1 tvg-chno="14052" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:36E4:6A4:13E:820000:0:0:0:" tvg-name="RSI LA 2 HD",RSI LA 2 HD
+#EXTVLCOPT:program=14052
+http://10.0.0.10:8001/1:0:19:36E4:6A4:13E:820000:0:0:0:
+#EXTINF:-1 tvg-chno="17204" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:4334:300C:13E:820000:0:0:0:" tvg-name="RTS Deux HD",RTS Deux HD
+#EXTVLCOPT:program=17204
+http://10.0.0.10:8001/1:0:19:4334:300C:13E:820000:0:0:0:
+#EXTINF:-1 tvg-chno="17203" tvg-logo="http://10.0.0.10/images/default_picon.png" tvg-id="1:0:19:4333:300C:13E:820000:0:0:0:" tvg-name="RTS Un HD",RTS Un HD
+#EXTVLCOPT:program=17203
+http://10.0.0.10:8001/1:0:19:4333:300C:13E:820000:0:0:0:

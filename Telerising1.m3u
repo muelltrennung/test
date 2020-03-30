@@ -29,8 +29,6 @@ pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=rtl-2&platfo
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=kabel-eins&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Kabel Eins" pipe:1
 #EXTINF:0001 tvg-id="Kabel Eins Doku" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/b18351a758abb2459e3c/black/210x120.png", Kabel Eins Doku
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=kabel1_doku&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Kabel Eins Doku" pipe:1
-#EXTINF:0001 tvg-id="TelezÃ¼ri" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/de1b4898a0e1ae45963f/black/210x120.png", TelezÃ¼ri
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=telezueri&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="TelezÃ¼ri" pipe:1
 #EXTINF:0001 tvg-id="5+" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/509f14dac7d86b317d46/black/210x120.png", 5+
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=5plus_ch&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="5+" pipe:1
 #EXTINF:0001 tvg-id="TV25.ch" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/79607704d10a6777e986/black/210x120.png", TV25 HD
@@ -111,14 +109,10 @@ pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=mdr-sachsen&
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=ndr-niedersachsen&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="NDR Niedersachsen" pipe:1
 #EXTINF:0001 tvg-id="rbb Berlin" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/71371c9cb5a476b92c79/black/210x120.png", rbb Berlin
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=rbb&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="rbb Berlin" pipe:1
-#EXTINF:0001 tvg-id="SR Fernsehen" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/7869e2a5ebcb3a0bd88f/black/210x120.png", SR Fernsehen
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=sr-fernsehen&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="SR Fernsehen" pipe:1
 #EXTINF:0001 tvg-id="SWR Fernsehen BW" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/8c058b605c5befef0e2c/black/210x120.png", SWR Fernsehen BW
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=swr-fernsehen-bw&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="SWR Fernsehen BW" pipe:1
-#EXTINF:0001 tvg-id="WDR KÃ¶ln" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/439ce2df74f3fa3d4a69/black/210x120.png", WDR KÃ¶ln
+#EXTINF:0001 tvg-id="WDR Köln" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/439ce2df74f3fa3d4a69/black/210x120.png", WDR Köln
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=wdr-koeln&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="WDR KÃ¶ln" pipe:1
-#EXTINF:0001 tvg-id="Radio Bremen TV" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/bd8b3e0466aca1bd2e3f/black/210x120.png", Radio Bremen TV
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=radio-bremen-tv&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Radio Bremen TV" pipe:1
 #EXTINF:0001 tvg-id="tagesschau24" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/6e02ccb8c56d7fc1fd21/black/210x120.png", tagesschau24
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=einsextra&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="tagesschau24" pipe:1
 #EXTINF:0001 tvg-id="ONE" group-title="Allgemein" tvg-logo="https://images.zattic.com/logos/b5217f0bebaff7fc4a4a/black/210x120.png", ONE
@@ -165,7 +159,7 @@ pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=france-24-fr
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=n24&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="WELT" pipe:1
 #EXTINF:0001 tvg-id="n-tv" group-title="Nachrichten" tvg-logo="https://images.zattic.com/logos/44f700b5acac1cf37c5e/black/210x120.png", n-tv
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=n-tv&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="n-tv" pipe:1
-#EXTINF:0001 tvg-id="Der AktionÃ¤r TV" group-title="Nachrichten" tvg-logo="https://images.zattic.com/logos/d93accd858d2b3719f3e/black/210x120.png", Der AktionÃ¤r TV
+#EXTINF:0001 tvg-id="Der Aktionär TV" group-title="Nachrichten" tvg-logo="https://images.zattic.com/logos/d93accd858d2b3719f3e/black/210x120.png", Der Aktionär TV
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=daf&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Der AktionÃ¤r TV" pipe:1
 #EXTINF:0001 tvg-id="DeutscheWelleDE.de" group-title="Nachrichten" tvg-logo="https://images.zattic.com/logos/b52d486b5adc62f9cd88/black/210x120.png", Deutsche Welle
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=deutschewelle_de&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Deutsche Welle" pipe:1
@@ -183,10 +177,6 @@ pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=bvn&platform
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=mtv&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="MTV HD" pipe:1
 #EXTINF:0001 tvg-id="DeLuxeMusic.de" group-title="Musik TV" tvg-logo="https://images.zattic.com/logos/a1dab93ad7c3615a311f/black/210x120.png", DELUXE MUSIC HD
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=deluxe-music&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="DELUXE MUSIC HD" pipe:1
-#EXTINF:0001 tvg-id="DeutschesMusikFernsehen.de" group-title="Musik TV" tvg-logo="https://images.zattic.com/logos/15c35ef6d6aca190bba2/black/210x120.png", Deutsches Musik Fernsehen
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=deutschesmusikfernsehen&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Deutsches Musik Fernsehen" pipe:1
-#EXTINF:0001 tvg-id="FolxTV.de" group-title="Musik TV" tvg-logo="https://images.zattic.com/logos/dfc4bf9e991ea9217b2c/black/210x120.png", Folx TV
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=folx_tv_at&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Folx TV" pipe:1
 #EXTINF:0001 tvg-id="go.tv" group-title="Musik TV" tvg-logo="https://images.zattic.com/logos/a053a3c6242ff0466e66/black/210x120.png", GoTV
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=gotv_austria&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="GoTV" pipe:1
 #EXTINF:0001 tvg-id="KissTV.uk" group-title="Musik TV" tvg-logo="https://images.zattic.com/logos/57d400933df0841cac36/black/210x120.png", Kiss TV
@@ -207,14 +197,6 @@ pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=fashiontv&pl
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=nasa_tv&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="NASA TV" pipe:1
 #EXTINF:0001 tvg-id="Bibel TV" group-title="Spezielles Interesse" tvg-logo="https://images.zattic.com/logos/adbeea64a39a6dfa0d52/black/210x120.png", Bibel TV
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=bibeltv&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Bibel TV" pipe:1
-#EXTINF:0001 tvg-id="GODChannel.eu" group-title="Spezielles Interesse" tvg-logo="https://images.zattic.com/logos/29a59b8688c583daf281/black/210x120.png", GOD Channel
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=god-channel-tv&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="GOD Channel" pipe:1
-#EXTINF:0001 tvg-id="Sonlife.uk" group-title="Spezielles Interesse" tvg-logo="https://images.zattic.com/logos/140cc2ccc58fa266cfa2/black/210x120.png", SONLife
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=sonlife&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="SONLife" pipe:1
-#EXTINF:0001 tvg-id="KTV.de" group-title="Spezielles Interesse" tvg-logo="https://images.zattic.com/logos/5524d8a6ba36bfe4621a/black/210x120.png", K-TV
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=ktv&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="K-TV" pipe:1
-#EXTINF:0001 tvg-id="NetViet.vn" group-title="Spezielles Interesse" tvg-logo="https://images.zattic.com/logos/e51d8d02eb30922eee7a/black/210x120.png", NETVIET
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=netviet_vn&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="NETVIET" pipe:1
 #EXTINF:0001 tvg-id="ArirangTv.kr" group-title="Spezielles Interesse" tvg-logo="https://images.zattic.com/logos/79418d67a7bd42495d39/black/210x120.png", Arirang TV HD
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=arirang_kr&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Arirang TV HD" pipe:1
 #EXTINF:0001 tvg-id="RTDocumentary.pl" group-title="Spezielles Interesse" tvg-logo="https://images.zattic.com/logos/ddb01a357b299fc6f18e/black/210x120.png", RT Doc
@@ -239,8 +221,6 @@ pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=bbc-four&pla
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=bbc_news&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="BBC News" pipe:1
 #EXTINF:0001 tvg-id="BBCParliament.uk" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/4514eeacbbb4051dae3a/black/210x120.png", BBC Parliament
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=bbc-parliament&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="BBC Parliament" pipe:1
-#EXTINF:0001 tvg-id="BBCArabic.net" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/ca7617e03c4f3cee2ac5/black/210x120.png", BBC Arabic
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=bbc-arabic&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="BBC Arabic" pipe:1
 #EXTINF:0001 tvg-id="CBBC" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/c1fbcf3a1a3e0d28c9e8/black/210x120.png", CBBC
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=cbbc&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="CBBC" pipe:1
 #EXTINF:0001 tvg-id="CBeebies" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/f7e4b9488559e07582c9/black/210x120.png", CBeebies
@@ -261,8 +241,6 @@ pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=film4&platfo
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=more4&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="More 4" pipe:1
 #EXTINF:0001 tvg-id="4Seven.uk" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/5c6a7026f51d7cbb11ea/black/210x120.png", 4Seven
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=4seven_uk&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="4Seven" pipe:1
-#EXTINF:0001 tvg-id="S4C" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/bda246c7961dd91d46ae/black/210x120.png", S4C
-pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=s4c&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="S4C" pipe:1
 #EXTINF:0001 tvg-id="Drama.uk" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/078202b6856d11f32fd8/black/210x120.png", Drama
 pipe:///usr/bin/ffmpeg -i "http://10.0.0.18:8180/index.m3u8?channel=drama_uk&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Drama" pipe:1
 #EXTINF:0001 tvg-id="Paramount.uk" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/02cbdbebf40316119e8f/black/210x120.png", Paramount Network

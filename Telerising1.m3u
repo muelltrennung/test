@@ -257,3 +257,27 @@ pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=travelc
 pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=pbs_america&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="PBS America" pipe:1
 #EXTINF:0001 tvg-id="FreeSports" group-title="Englisch" tvg-logo="https://images.zattic.com/logos/f44d467eed365c7c998e/black/210x120.png", FreeSports
 pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=freesports_uk&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="FreeSports" pipe:1
+#EXTINF:0001 tvg-id="Rai Uno" group-title="Italienisch" tvg-logo="https://images.zattic.com/logos/bc9bd8d0c7143b74714e/black/210x120.png", Rai Uno
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=rai-uno&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Rai Uno" pipe:1
+#EXTINF:0001 tvg-id="Rai Due" group-title="Italienisch" tvg-logo="https://images.zattic.com/logos/b0af775814463d71488b/black/210x120.png", Rai Due
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=rai-due&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Rai Due" pipe:1
+#EXTINF:0001 tvg-id="Rai Tre" group-title="Italienisch" tvg-logo="https://images.zattic.com/logos/6f0221b4961dad80eaee/black/210x120.png", Rai Tre
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=rai-tre&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Rai Tre" pipe:1
+#EXTINF:0001 tvg-id="Italia 1" group-title="Italienisch" tvg-logo="https://images.zattic.com/logos/b752c20efe0d3ff0f279/black/210x120.png", Italia 1
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=italia-1&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Italia 1" pipe:1
+#EXTINF:0001 tvg-id="Rete 4" group-title="Italienisch" tvg-logo="https://images.zattic.com/logos/48ae495d6454aa5c4e3d/black/210x120.png", Rete 4
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=rete-4&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Rete 4" pipe:1
+#EXTINF:0001 tvg-id="Canale 5" group-title="Italienisch" tvg-logo="https://images.zattic.com/logos/6e48ddc9e09086cbe7f1/black/210x120.png", Canale 5
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=canale-5&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="Canale 5" pipe:1
+#EXTINF:0001 tvg-id="TF1.fr" group-title="FranzÃ¶sisch" tvg-logo="https://images.zattic.com/logos/168de044cccb14a5198e/black/210x120.png", TF1 HD
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=tf1&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="TF1 HD" pipe:1
+#EXTINF:0001 tvg-id="M6 Suisse" group-title="FranzÃ¶sisch" tvg-logo="https://images.zattic.com/logos/4f293ffdf68d415bde6a/black/210x120.png", M6 Suisse
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=m6-suisse&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="M6 Suisse" pipe:1
+#EXTINF:0001 tvg-id="France 2" group-title="FranzÃ¶sisch" tvg-logo="https://images.zattic.com/logos/573e32b01a0cb1a3af30/black/210x120.png", France 2
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=france-2&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="France 2" pipe:1
+#EXTINF:0001 tvg-id="France 3" group-title="FranzÃ¶sisch" tvg-logo="https://images.zattic.com/logos/e691e2a2accbaf424cec/black/210x120.png", France 3
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=france-3&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="France 3" pipe:1
+#EXTINF:0001 tvg-id="France4.fr" group-title="FranzÃ¶sisch" tvg-logo="https://images.zattic.com/logos/114d9b5737fbae8fcb12/black/210x120.png", France 4 HD
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=france-4&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="France 4 HD" pipe:1
+#EXTINF:0001 tvg-id="France 5" group-title="FranzÃ¶sisch" tvg-logo="https://images.zattic.com/logos/2d36b714004bbfc8c689/black/210x120.png", France 5
+pipe:///usr/bin/ffmpeg -i "http://192.168.178.23:8180/index.m3u8?channel=france-5&platform=hls5&bw=5000" -vcodec copy -acodec copy -f mpegts -metadata service_name="France 5" pipe:1

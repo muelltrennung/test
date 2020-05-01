@@ -1,9 +1,0 @@
-#EXTM3U
-#EXTINF:0,ORF1 HD
-rtsp://10.0.0.19:554/?freq=498&msys=dvbt2&bw=8&plp=0&pids=0,16,17,18,20,401,4010,4015&x_pmt=401&x_ci=1
-#EXTINF:0,ORF2 T HD
-rtsp://10.0.0.19:554/?freq=498&msys=dvbt2&bw=8&plp=0&pids=0,16,17,18,20,402,4000,4005&x_pmt=402&x_ci=1
-#EXTINF:0,ATV HD
-rtsp://10.0.0.19:554/?freq=522&msys=dvbt2&bw=8&plp=0&pids=0,16,17,18,20,501,5010,5015&x_pmt=501&x_ci=1
-#EXTINF:0,PULS 4 HD
-rtsp://10.0.0.19:554/?freq=482&msys=dvbt2&bw=8&plp=0&pids=0,16,17,18,20,802,8020,8025&x_pmt=802&x_ci=1

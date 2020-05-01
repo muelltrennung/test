@@ -1,0 +1,44 @@
+#EXTM3U 
+#EXTVLCOPT--http-reconnect=true
+#EXTINF:-1 tvg-chno="14401" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:19:3841:191:2028:EEEE0000:0:0:0:" tvg-name="ORF1 HD",ORF1 HD
+#EXTVLCOPT:program=14401
+http://192.168.178.25:8001/1:0:19:3841:191:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14402" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:19:3842:191:2028:EEEE0000:0:0:0:" tvg-name="ORF2 T HD",ORF2 T HD
+#EXTVLCOPT:program=14402
+http://192.168.178.25:8001/1:0:19:3842:191:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14501" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:19:38A5:1F5:2028:EEEE0000:0:0:0:" tvg-name="ATV HD",ATV HD
+#EXTVLCOPT:program=14501
+http://192.168.178.25:8001/1:0:19:38A5:1F5:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14502" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:16:38A6:1F5:2028:EEEE0000:0:0:0:" tvg-name="PULS 4",PULS 4
+#EXTVLCOPT:program=14502
+http://192.168.178.25:8001/1:0:16:38A6:1F5:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14508" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:16:38AC:1F5:2028:EEEE0000:0:0:0:" tvg-name="ATV 2",ATV 2
+#EXTVLCOPT:program=14508
+http://192.168.178.25:8001/1:0:16:38AC:1F5:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14405" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:19:3845:191:2028:EEEE0000:0:0:0:" tvg-name="ORF III HD",ORF III HD
+#EXTVLCOPT:program=14405
+http://192.168.178.25:8001/1:0:19:3845:191:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14505" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:19:38A9:1F5:2028:EEEE0000:0:0:0:" tvg-name="3sat HD",3sat HD
+#EXTVLCOPT:program=14505
+http://192.168.178.25:8001/1:0:19:38A9:1F5:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14503" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:19:38A7:1F5:2028:EEEE0000:0:0:0:" tvg-name="ServusTV HD",ServusTV HD
+#EXTVLCOPT:program=14503
+http://192.168.178.25:8001/1:0:19:38A7:1F5:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14805" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:16:39D5:321:2028:EEEE0000:0:0:0:" tvg-name="PULS 24",PULS 24
+#EXTVLCOPT:program=14805
+http://192.168.178.25:8001/1:0:16:39D5:321:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="17105" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:16:42D1:44F:2028:EEEE0000:0:0:0:" tvg-name="oe24.TV",oe24.TV
+#EXTVLCOPT:program=17105
+http://192.168.178.25:8001/1:0:16:42D1:44F:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="17103" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:16:42CF:44F:2028:EEEE0000:0:0:0:" tvg-name="Tirol TV",Tirol TV
+#EXTVLCOPT:program=17103
+http://192.168.178.25:8001/1:0:16:42CF:44F:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14406" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:19:3846:191:2028:EEEE0000:0:0:0:" tvg-name="ORF Sport+ HD",ORF Sport+ HD
+#EXTVLCOPT:program=14406
+http://192.168.178.25:8001/1:0:19:3846:191:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14407" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:16:3847:191:2028:EEEE0000:0:0:0:" tvg-name="ORF1",ORF1
+#EXTVLCOPT:program=14407
+http://192.168.178.25:8001/1:0:16:3847:191:2028:EEEE0000:0:0:0:
+#EXTINF:-1 tvg-chno="14408" tvg-logo="http://192.168.178.25/images/default_picon.png" tvg-id="1:0:16:3848:191:2028:EEEE0000:0:0:0:" tvg-name="ORF2 W",ORF2 W
+#EXTVLCOPT:program=14408
+http://192.168.178.25:8001/1:0:16:3848:191:2028:EEEE0000:0:0:0:

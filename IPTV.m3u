@@ -47,15 +47,5 @@ https://d2dx1rbmqcg7z0.cloudfront.net/index.m3u8
 http://5856e1a25f71a.streamlock.net/easycast9-live/_definst_/mp4:livestreamhd5/chunklist_w793115119.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="DW English" tvg-language="" tvg-logo="" group-title="",DW English
 https://dwstream1-lh.akamaihd.net/i/dwstream1_live@120422/index_1_av-p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NBC 6 Miami FL (WTVJ)" tvg-language="" tvg-logo="" group-title="",NBC
-http://161.0.157.51/PLTV/88888888/224/3221227040/01.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CBS" tvg-language="" tvg-logo="" group-title="",CBS
-http://161.0.157.5/PLTV/88888888/224/3221227041/01.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="The CW (WSFL)" tvg-language="" tvg-logo="" group-title="",The CW (WSFL)
-pipe:///usr/bin/ffmpeg -i "http://190.80.3.28/CW/CW.isml/index.m3u8" -vcodec copy -acodec copy -f mpegts -metadata service_name="The CW" pipe:1
-#EXTINF:-1 tvg-id="" tvg-name="PBS (WPBT)" tvg-language="" tvg-logo="" group-title="",PBS (WPBT)
-pipe:///usr/bin/ffmpeg -i "http://190.80.3.28/PBS/PBS.isml/index.m3u8" -vcodec copy -acodec copy -f mpegts -metadata service_name="PBS" pipe:1
-#EXTINF:-1 tvg-id="" tvg-name="FOX (WSVN)" tvg-language="" tvg-logo="" group-title="",FOX (WSVN)
-pipe:///usr/bin/ffmpeg -i "http://190.80.3.28/FOX/FOX.isml/index.m3u8" -vcodec copy -acodec copy -f mpegts -metadata service_name="FOX" pipe:1
-#EXTINF:-1 tvg-id="" tvg-name="ABC (WPLG)" tvg-language="" tvg-logo="" group-title="",ABC (WPLG)
-pipe:///usr/bin/ffmpeg -i "http://190.80.3.28/ABC/ABC.isml/index.m3u8" -vcodec copy -acodec copy -f mpegts -metadata service_name="ABC" pipe:1
+#EXTINF:-1 tvg-id="" tvg-name="KroneTV" tvg-language="" tvg-logo="" group-title="",KroneTV
+https://kronetv.mdn.ors.at/out/u/kronetv-nodrm.m3u8

@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="TirolTV" tvg-language="DE" tvg-logo="" group-title="",TirolTV
-http://lb.hd-livestream.de:1935/live/TirolTV/playlist.m3u8
+https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Okto" tvg-language="DE" tvg-logo="" group-title="",Okto
 https://d38d1dtxhym0zi.cloudfront.net/LiveHTTPOrigin/okto/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ländle TV" tvg-language="" tvg-logo="" group-title="",Ländle TV
@@ -49,3 +49,23 @@ http://5856e1a25f71a.streamlock.net/easycast9-live/_definst_/mp4:livestreamhd5/c
 https://dwstream1-lh.akamaihd.net/i/dwstream1_live@120422/index_1_av-p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KroneTV" tvg-language="" tvg-logo="" group-title="",KroneTV
 https://kronetv.mdn.ors.at/out/u/kronetv-nodrm.m3u8
+#EXTINF:-1 tvg-name=EURONEWS tvg-id=Euronews.de tvg-logo=https://i.imgur.com/szYOy8S.jpg group-title="",EURONEWS
+https://rakuten-euronews-5-de.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF: -1 tvg-name="Hamburg 1" tvg-id="Hamburg1.de" tvg-logo="https://i.imgur.com/9TRhahY.png" group-title = "",Hamburg 1
+https://live2.telvi.de/hls/hamburg1.m3u8
+#EXTINF: -1 tvg-name="Rockland TV - Mainz" tvg-id="" tvg-logo="https://i.imgur.com/vIMkVo6.png" group-title = "",Rockland TV - Mainz
+http://player-api.new.livestream.com/accounts/22300522/events/6680139/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="XITE" tvg-logo="https://i.imgur.com/VaDrfKr.png" group-title="",XITE
+https://xite-samsung-de.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ócko" tvg-logo="https://i.imgur.com/QpOUInQ.png" group-title="",Ócko
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ócko Expres" tvg-logo="https://i.imgur.com/yHMMTrz.png" group-title="",Ócko Expres
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ócko Gold" tvg-logo="https://i.imgur.com/g1uaYwu.jpg" group-title="",Ócko Gold
+https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko_gold.stream.1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kerang.uk" tvg-name="Kerrang" tvg-logo="https://i.imgur.com/z8T3Q48.png" group-title="",Kerrang
+http://csm-e.tm.yospace.com/csm/extlive/boxplus01,kerrang-desktop.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/kerrang/
+#EXTINF:-1 tvg-id="" tvg-name="PBS America2" tvg-logo="https://i.imgur.com/J4zE5z9.jpg" group-title="",PBS America2
+https://pbs-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="QWEST MIX" tvg-logo="https://i.imgur.com/B69BHnx.jpg" group-title="",QWEST MIX
+https://qwestmix-samsung-uk.amagi.tv/playlist.m3u8

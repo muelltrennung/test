@@ -1,14 +1,14 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="TirolTV" tvg-language="DE" tvg-logo="" group-title="",TirolTV
-https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
+pipe:///usr/bin/ffmpeg -i "https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8" -vcodec copy -acodec copy -f mpegts -metadata service_name="TirolTV" pipe:1
 #EXTINF:-1 tvg-id="" tvg-name="Okto" tvg-language="DE" tvg-logo="" group-title="",Okto
 https://d38d1dtxhym0zi.cloudfront.net/LiveHTTPOrigin/okto/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ländle TV" tvg-language="" tvg-logo="" group-title="",Ländle TV
-https://58b42f6c8c9bf.streamlock.net:8080/live/LaendleTV/chunklist_w364023246.m3u8
+pipe:///usr/bin/ffmpeg -i "https://streaming13.huberwebmedia.at/LiveApp/streams/985585225397790082777809.m3u8" -vcodec copy -acodec copy -f mpegts -metadata service_name="Ländle TV" pipe:1
 #EXTINF:-1 tvg-id="" tvg-name="W24" tvg-language="" tvg-logo="" group-title="",W24
 https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="oe24.tv" tvg-language="" tvg-logo="" group-title="",oe24.tv
-http://apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/playlist.m3u8
+pipe:///usr/bin/ffmpeg -i "http://apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/playlist.m3u8" -vcodec copy -acodec copy -f mpegts -metadata service_name="TirolTV" pipe:1
 #EXTINF:-1 tvg-id="" tvg-name="kronehit.tv" tvg-language="" tvg-logo="" group-title="",kronehit.tv
 https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ServusTV" tvg-language="" tvg-logo="" group-title="",ServusTV
@@ -64,7 +64,7 @@ https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ócko Gold" tvg-logo="https://i.imgur.com/g1uaYwu.jpg" group-title="",Ócko Gold
 https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko_gold.stream.1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="kerang.uk" tvg-name="Kerrang" tvg-logo="https://i.imgur.com/z8T3Q48.png" group-title="",Kerrang
-http://csm-e.tm.yospace.com/csm/extlive/boxplus01,kerrang-desktop.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/kerrang/
+pipe:///usr/bin/ffmpeg -i "http://csm-e.tm.yospace.com/csm/extlive/boxplus01,kerrang-desktop.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/kerrang/" -vcodec copy -acodec copy -f mpegts -metadata service_name="Kerrang" pipe:1
 #EXTINF:-1 tvg-id="" tvg-name="PBS America2" tvg-logo="https://i.imgur.com/J4zE5z9.jpg" group-title="",PBS America2
 https://pbs-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="QWEST MIX" tvg-logo="https://i.imgur.com/B69BHnx.jpg" group-title="",QWEST MIX

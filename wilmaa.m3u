@@ -1,285 +1,287 @@
 #EXTM3U
 #EXTINF:0001 tvg-id="sf_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sf_1_hd.png", SRF 1 HD
-http://192.168.178.23:8081/api/wlm/live/sf_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/sf_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="SRF 1 HD" pipe:1
 #EXTINF:0001 tvg-id="sf_2_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sf_2_hd.png", SRF 2 HD
-http://192.168.178.23:8081/api/wlm/live/sf_2_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/sf_2_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="SRF 2 HD" pipe:1
 #EXTINF:0001 tvg-id="3_plus_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/3_plus_hd.png", 3+ HD
-http://192.168.178.23:8081/api/wlm/live/3_plus_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/3_plus_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="3+ HD" pipe:1
 #EXTINF:0001 tvg-id="tv24_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/tv24_hd.png", TV24 HD
-http://192.168.178.23:8081/api/wlm/live/tv24_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/tv24_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="TV24 HD" pipe:1
 #EXTINF:0001 tvg-id="pro7_ch_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/pro7_ch_hd.png", ProSieben HD
-http://192.168.178.23:8081/api/wlm/live/pro7_ch_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/pro7_ch_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ProSieben HD" pipe:1
 #EXTINF:0001 tvg-id="rtl_ch_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rtl_ch_hd.png", RTL CH HD
-http://192.168.178.23:8081/api/wlm/live/rtl_ch_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rtl_ch_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RTL CH HD" pipe:1
 #EXTINF:0001 tvg-id="rtl_2_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rtl_2_hd.png", RTL2 HD
-http://192.168.178.23:8081/api/wlm/live/rtl_2_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rtl_2_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RTL2 HD" pipe:1
 #EXTINF:0001 tvg-id="4_plus_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/4_plus_hd.png", 4+ HD
-http://192.168.178.23:8081/api/wlm/live/4_plus_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/4_plus_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="4+ HD" pipe:1
 #EXTINF:0001 tvg-id="5_plus_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/5_plus_hd.png", 5+ HD
-http://192.168.178.23:8081/api/wlm/live/5_plus_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/5_plus_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="5+ HD" pipe:1
 #EXTINF:0001 tvg-id="tv_25_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/tv_25_hd.png", TV 25 HD
-http://192.168.178.23:8081/api/wlm/live/tv_25_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/tv_25_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="TV 25 HD" pipe:1
 #EXTINF:0001 tvg-id="vox_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/vox_hd.png", VOX HD
-http://192.168.178.23:8081/api/wlm/live/vox_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/vox_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="VOX HD" pipe:1
 #EXTINF:0001 tvg-id="sat_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sat_1_hd.png", SAT.1 HD
-http://192.168.178.23:8081/api/wlm/live/sat_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/sat_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="SAT.1 HD" pipe:1
 #EXTINF:0001 tvg-id="kabel_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/kabel_1_hd.png", Kabel Eins HD
-http://192.168.178.23:8081/api/wlm/live/kabel_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/kabel_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Kabel Eins HD" pipe:1
 #EXTINF:0001 tvg-id="sixx_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sixx_hd.png", sixx HD
-http://192.168.178.23:8081/api/wlm/live/sixx_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/sixx_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="sixx HD" pipe:1
 #EXTINF:0001 tvg-id="puls_8" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/puls_8.png", Puls acht
-http://192.168.178.23:8081/api/wlm/live/puls_8
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/puls_8" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Puls acht" pipe:1
 #EXTINF:0001 tvg-id="6_plus_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/6_plus_hd.png", 6+ HD
-http://192.168.178.23:8081/api/wlm/live/6_plus_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/6_plus_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="6+ HD" pipe:1
 #EXTINF:0001 tvg-id="s1tv_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/s1tv_hd.png", S1TV HD
-http://192.168.178.23:8081/api/wlm/live/s1tv_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/s1tv_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="S1TV HD" pipe:1
 #EXTINF:0001 tvg-id="rtl_nitro_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rtl_nitro_hd.png", RTL NITRO HD
-http://192.168.178.23:8081/api/wlm/live/rtl_nitro_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rtl_nitro_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RTL NITRO HD" pipe:1
 #EXTINF:0001 tvg-id="dmax" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/dmax.png", DMAX
-http://192.168.178.23:8081/api/wlm/live/dmax
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/dmax" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="DMAX" pipe:1
 #EXTINF:0001 tvg-id="pro7_maxx" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/pro7_maxx.png", ProSieben MAXX
-http://192.168.178.23:8081/api/wlm/live/pro7_maxx
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/pro7_maxx" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ProSieben MAXX" pipe:1
 #EXTINF:0001 tvg-id="ard_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/ard_hd.png", Das Erste HD
-http://192.168.178.23:8081/api/wlm/live/ard_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/ard_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Das Erste HD" pipe:1
 #EXTINF:0001 tvg-id="zdf_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/zdf_hd.png", ZDF HD
-http://192.168.178.23:8081/api/wlm/live/zdf_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/zdf_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ZDF HD" pipe:1
 #EXTINF:0001 tvg-id="orf_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/orf_1_hd.png", ORF Eins HD
-http://192.168.178.23:8081/api/wlm/live/orf_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/orf_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ORF Eins HD" pipe:1
 #EXTINF:0001 tvg-id="orf_2_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/orf_2_hd.png", ORF 2 HD
-http://192.168.178.23:8081/api/wlm/live/orf_2_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/orf_2_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ORF 2 HD" pipe:1
 #EXTINF:0001 tvg-id="sat_1_gold" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sat_1_gold.png", Sat.1 Gold
-http://192.168.178.23:8081/api/wlm/live/sat_1_gold
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/sat_1_gold" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Sat.1 Gold" pipe:1
 #EXTINF:0001 tvg-id="zdf_neo_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/zdf_neo_hd.png", ZDF Neo HD
-http://192.168.178.23:8081/api/wlm/live/zdf_neo_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/zdf_neo_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ZDF Neo HD" pipe:1
 #EXTINF:0001 tvg-id="zdf_info_hd" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/zdf_info_hd.png", ZDF Info HD
-http://192.168.178.23:8081/api/wlm/live/zdf_info_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/zdf_info_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ZDF Info HD" pipe:1
 #EXTINF:0001 tvg-id="orf3" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/orf3.png", ORF3
-http://192.168.178.23:8081/api/wlm/live/orf3
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/orf3" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ORF3" pipe:1
 #EXTINF:0001 tvg-id="arte_de_hd" group-title="Culture" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/arte_de_hd.png", ARTE DE HD
-http://192.168.178.23:8081/api/wlm/live/arte_de_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/arte_de_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ARTE DE HD" pipe:1
 #EXTINF:0001 tvg-id="3_sat_hd" group-title="Culture" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/3_sat_hd.png", 3sat HD
-http://192.168.178.23:8081/api/wlm/live/3_sat_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/3_sat_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="3sat HD" pipe:1
 #EXTINF:0001 tvg-id="super_rtl_hd" group-title="Kids" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/super_rtl_hd.png", SUPER RTL HD
-http://192.168.178.23:8081/api/wlm/live/super_rtl_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/super_rtl_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="SUPER RTL HD" pipe:1
 #EXTINF:0001 tvg-id="tlc_de" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/tlc_de.png", TLC Germany
-http://192.168.178.23:8081/api/wlm/live/tlc_de
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/tlc_de" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="TLC Germany" pipe:1
 #EXTINF:0001 tvg-id="viva_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/viva_hd.png", Comedy Central
-http://192.168.178.23:8081/api/wlm/live/viva_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/viva_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Comedy Central" pipe:1
 #EXTINF:0001 tvg-id="nick_cc_hd" group-title="Kids" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/nick_cc_hd.png", Nick Schweiz
-http://192.168.178.23:8081/api/wlm/live/nick_cc_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/nick_cc_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Nick Schweiz" pipe:1
 #EXTINF:0001 tvg-id="disney_channel_de" group-title="Kids" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/disney_channel_de.png", Disney Channel
-http://192.168.178.23:8081/api/wlm/live/disney_channel_de
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/disney_channel_de" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Disney Channel" pipe:1
 #EXTINF:0001 tvg-id="kika_hd" group-title="Kids" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/kika_hd.png", Kika HD
-http://192.168.178.23:8081/api/wlm/live/kika_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/kika_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Kika HD" pipe:1
 #EXTINF:0001 tvg-id="toggo_plus" group-title="Kids" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/toggo_plus.png", TOGGO plus
-http://192.168.178.23:8081/api/wlm/live/toggo_plus
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/toggo_plus" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="TOGGO plus" pipe:1
 #EXTINF:0001 tvg-id="eurosport" group-title="Sports" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/eurosport.png", Eurosport
-http://192.168.178.23:8081/api/wlm/live/eurosport
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/eurosport" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Eurosport" pipe:1
 #EXTINF:0001 tvg-id="sport_1" group-title="Sports" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sport_1.png", Sport1
-http://192.168.178.23:8081/api/wlm/live/sport_1
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/sport_1" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Sport1" pipe:1
 #EXTINF:0001 tvg-id="teleclub_zoom_hd" group-title="Sports" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/teleclub_zoom_hd.png", Teleclub Zoom
-http://192.168.178.23:8081/api/wlm/live/teleclub_zoom_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/teleclub_zoom_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Teleclub Zoom" pipe:1
 #EXTINF:0001 tvg-id="n24_hd" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/n24_hd.png", WELT
-http://192.168.178.23:8081/api/wlm/live/n24_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/n24_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="WELT" pipe:1
 #EXTINF:0001 tvg-id="n_tv_hd" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/n_tv_hd.png", n-tv HD
-http://192.168.178.23:8081/api/wlm/live/n_tv_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/n_tv_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="n-tv HD" pipe:1
 #EXTINF:0001 tvg-id="sf_info_hd" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sf_info_hd.png", SRF info HD
-http://192.168.178.23:8081/api/wlm/live/sf_info_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/sf_info_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="SRF info HD" pipe:1
 #EXTINF:0001 tvg-id="phoenix_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/phoenix_hd.png", Phoenix HD
-http://192.168.178.23:8081/api/wlm/live/phoenix_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/phoenix_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Phoenix HD" pipe:1
 #EXTINF:0001 tvg-id="kabel1_doku" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/kabel1_doku.png", Kabel 1 Doku
-http://192.168.178.23:8081/api/wlm/live/kabel1_doku
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/kabel1_doku" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Kabel 1 Doku" pipe:1
 #EXTINF:0001 tvg-id="n24_doku" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/n24_doku.png", N24 Doku
-http://192.168.178.23:8081/api/wlm/live/n24_doku
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/n24_doku" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="N24 Doku" pipe:1
 #EXTINF:0001 tvg-id="rtl_plus" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rtl_plus.png", RTLplus
-http://192.168.178.23:8081/api/wlm/live/rtl_plus
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rtl_plus" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RTLplus" pipe:1
 #EXTINF:0001 tvg-id="servus_tv_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/servus_tv_hd.png", Servus HD
-http://192.168.178.23:8081/api/wlm/live/servus_tv_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/servus_tv_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Servus HD" pipe:1
 #EXTINF:0001 tvg-id="tele_5" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/tele_5.png", Tele 5
-http://192.168.178.23:8081/api/wlm/live/tele_5
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/tele_5" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Tele 5" pipe:1
 #EXTINF:0001 tvg-id="swiss1_tv_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/swiss1_tv_hd.png", Swiss 1 TV
-http://192.168.178.23:8081/api/wlm/live/swiss1_tv_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/swiss1_tv_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Swiss 1 TV" pipe:1
 #EXTINF:0001 tvg-id="star_tv" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/star_tv.png", Star TV
-http://192.168.178.23:8081/api/wlm/live/star_tv
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/star_tv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Star TV" pipe:1
 #EXTINF:0001 tvg-id="swr_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/swr_hd.png", SWR HD
-http://192.168.178.23:8081/api/wlm/live/swr_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/swr_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="SWR HD" pipe:1
 #EXTINF:0001 tvg-id="wdr_hd" group-title="Regional" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/wdr_hd.png", WDR HD
-http://192.168.178.23:8081/api/wlm/live/wdr_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/wdr_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="WDR HD" pipe:1
 #EXTINF:0001 tvg-id="br_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/br_hd.png", Bayrischer Rundfunk
-http://192.168.178.23:8081/api/wlm/live/br_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/br_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Bayrischer Rundfunk" pipe:1
 #EXTINF:0001 tvg-id="ndr_hd" group-title="Regional" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/ndr_hd.png", NDR HD
-http://192.168.178.23:8081/api/wlm/live/ndr_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/ndr_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="NDR HD" pipe:1
 #EXTINF:0001 tvg-id="mdr" group-title="Regional" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/mdr.png", MDR
-http://192.168.178.23:8081/api/wlm/live/mdr
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/mdr" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="MDR" pipe:1
 #EXTINF:0001 tvg-id="hr" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/hr.png", HR
-http://192.168.178.23:8081/api/wlm/live/hr
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/hr" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="HR" pipe:1
 #EXTINF:0001 tvg-id="rbb" group-title="Regional" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rbb.png", rbb Berlin
-http://192.168.178.23:8081/api/wlm/live/rbb
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rbb" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="rbb Berlin" pipe:1
 #EXTINF:0001 tvg-id="mtv_ch_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/mtv_ch_hd.png", MTV CH HD
-http://192.168.178.23:8081/api/wlm/live/mtv_ch_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/mtv_ch_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="MTV CH HD" pipe:1
 #EXTINF:0001 tvg-id="euronews_de" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/euronews_de.png", euronews DE
-http://192.168.178.23:8081/api/wlm/live/euronews_de
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/euronews_de" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="euronews DE" pipe:1
 #EXTINF:0001 tvg-id="wetter_tv" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/wetter_tv.png", Wetter TV
-http://192.168.178.23:8081/api/wlm/live/wetter_tv
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/wetter_tv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Wetter TV" pipe:1
 #EXTINF:0001 tvg-id="ard_alpha" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/ard_alpha.png", ARD-alpha
-http://192.168.178.23:8081/api/wlm/live/ard_alpha
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/ard_alpha" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ARD-alpha" pipe:1
 #EXTINF:0001 tvg-id="vox_up_de" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/vox_up_de.png", VOXup
-http://192.168.178.23:8081/api/wlm/live/vox_up_de
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/vox_up_de" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="VOXup" pipe:1
 #EXTINF:0001 tvg-id="weltderwunder" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/weltderwunder.png", Welt der Wunder
-http://192.168.178.23:8081/api/wlm/live/weltderwunder
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/weltderwunder" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Welt der Wunder" pipe:1
 #EXTINF:0001 tvg-id="einsfestival" group-title="Music" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/einsfestival.png", ONE
-http://192.168.178.23:8081/api/wlm/live/einsfestival
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/einsfestival" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ONE" pipe:1
 #EXTINF:0001 tvg-id="ric" group-title="Kids" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/ric.png", RIC
-http://192.168.178.23:8081/api/wlm/live/ric
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/ric" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RIC" pipe:1
 #EXTINF:0001 tvg-id="deluxe_music" group-title="Music" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/deluxe_music.png", Deluxe Music TV
-http://192.168.178.23:8081/api/wlm/live/deluxe_music
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/deluxe_music" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Deluxe Music TV" pipe:1
 #EXTINF:0001 tvg-id="anixe_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/anixe_hd.png", Anixe HD
-http://192.168.178.23:8081/api/wlm/live/anixe_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/anixe_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Anixe HD" pipe:1
 #EXTINF:0001 tvg-id="rts_un_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rts_un_hd.png", RTS UN HD
-http://192.168.178.23:8081/api/wlm/live/rts_un_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rts_un_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RTS UN HD" pipe:1
 #EXTINF:0001 tvg-id="rts_deux_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rts_deux_hd.png", RTS DEUX HD
-http://192.168.178.23:8081/api/wlm/live/rts_deux_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rts_deux_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RTS DEUX HD" pipe:1
 #EXTINF:0001 tvg-id="m_6_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/m_6_hd.png", M6 HD CH
-http://192.168.178.23:8081/api/wlm/live/m_6_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/m_6_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="M6 HD CH" pipe:1
 #EXTINF:0001 tvg-id="tf_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/tf_1_hd.png", TF1 HD
-http://192.168.178.23:8081/api/wlm/live/tf_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/tf_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="TF1 HD" pipe:1
 #EXTINF:0001 tvg-id="france_2_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/france_2_hd.png", France 2 HD
-http://192.168.178.23:8081/api/wlm/live/france_2_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/france_2_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="France 2 HD" pipe:1
 #EXTINF:0001 tvg-id="france_3" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/france_3.png", France 3
-http://192.168.178.23:8081/api/wlm/live/france_3
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/france_3" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="France 3" pipe:1
 #EXTINF:0001 tvg-id="france_4" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/france_4.png", France 4
-http://192.168.178.23:8081/api/wlm/live/france_4
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/france_4" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="France 4" pipe:1
 #EXTINF:0001 tvg-id="france_5" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/france_5.png", France 5
-http://192.168.178.23:8081/api/wlm/live/france_5
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/france_5" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="France 5" pipe:1
 #EXTINF:0001 tvg-id="rsi_la_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rsi_la_1_hd.png", RSI La 1 HD
-http://192.168.178.23:8081/api/wlm/live/rsi_la_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rsi_la_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RSI La 1 HD" pipe:1
 #EXTINF:0001 tvg-id="rsi_la_2_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rsi_la_2_hd.png", RSI La 2 HD
-http://192.168.178.23:8081/api/wlm/live/rsi_la_2_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rsi_la_2_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RSI La 2 HD" pipe:1
 #EXTINF:0001 tvg-id="cnn" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/cnn.png", CNN International
-http://192.168.178.23:8081/api/wlm/live/cnn
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/cnn" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="CNN International" pipe:1
 #EXTINF:0001 tvg-id="bbc_news_hd" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bbc_news_hd.png", BBC News HD
-http://192.168.178.23:8081/api/wlm/live/bbc_news_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bbc_news_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="BBC News HD" pipe:1
 #EXTINF:0001 tvg-id="bbc_world_news" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bbc_world_news.png", BBC World News
-http://192.168.178.23:8081/api/wlm/live/bbc_world_news
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bbc_world_news" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="BBC World News" pipe:1
 #EXTINF:0001 tvg-id="e4" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/e4.png", E4
-http://192.168.178.23:8081/api/wlm/live/e4
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/e4" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="E4" pipe:1
 #EXTINF:0001 tvg-id="channel_4_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/channel_4_hd.png", Channel 4 HD
-http://192.168.178.23:8081/api/wlm/live/channel_4_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/channel_4_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Channel 4 HD" pipe:1
 #EXTINF:0001 tvg-id="euronews" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/euronews.png", Euronews FR
-http://192.168.178.23:8081/api/wlm/live/euronews
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/euronews" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Euronews FR" pipe:1
 #EXTINF:0001 tvg-id="rai_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rai_1_hd.png", Rai 1 HD
-http://192.168.178.23:8081/api/wlm/live/rai_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rai_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Rai 1 HD" pipe:1
 #EXTINF:0001 tvg-id="rai_2" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rai_2.png", Rai 2
-http://192.168.178.23:8081/api/wlm/live/rai_2
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rai_2" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Rai 2" pipe:1
 #EXTINF:0001 tvg-id="rai_3" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rai_3.png", Rai 3
-http://192.168.178.23:8081/api/wlm/live/rai_3
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rai_3" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Rai 3" pipe:1
 #EXTINF:0001 tvg-id="itv_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/itv_1_hd.png", iTV HD
-http://192.168.178.23:8081/api/wlm/live/itv_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/itv_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="iTV HD" pipe:1
 #EXTINF:0001 tvg-id="itv_2" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/itv_2.png", iTV 2
-http://192.168.178.23:8081/api/wlm/live/itv_2
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/itv_2" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="iTV 2" pipe:1
 #EXTINF:0001 tvg-id="itv_3" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/itv_3.png", iTV 3
-http://192.168.178.23:8081/api/wlm/live/itv_3
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/itv_3" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="iTV 3" pipe:1
 #EXTINF:0001 tvg-id="itv-4" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/itv-4.png", ITV 4
-http://192.168.178.23:8081/api/wlm/live/itv-4
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/itv-4" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ITV 4" pipe:1
 #EXTINF:0001 tvg-id="itvbe" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/itvbe.png", ITVBe
-http://192.168.178.23:8081/api/wlm/live/itvbe
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/itvbe" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="ITVBe" pipe:1
 #EXTINF:0001 tvg-id="more_4" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/more_4.png", More 4
-http://192.168.178.23:8081/api/wlm/live/more_4
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/more_4" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="More 4" pipe:1
 #EXTINF:0001 tvg-id="channel_5" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/channel_5.png", Channel 5
-http://192.168.178.23:8081/api/wlm/live/channel_5
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/channel_5" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Channel 5" pipe:1
 #EXTINF:0001 tvg-id="ai_jazeera_en" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/ai_jazeera_en.png", Al Jazeera English
-http://192.168.178.23:8081/api/wlm/live/ai_jazeera_en
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/ai_jazeera_en" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Al Jazeera English" pipe:1
 #EXTINF:0001 tvg-id="bloomberg_tv" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bloomberg_tv.png", Bloomberg TV
-http://192.168.178.23:8081/api/wlm/live/bloomberg_tv
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bloomberg_tv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Bloomberg TV" pipe:1
 #EXTINF:0001 tvg-id="cnbc" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/cnbc.png", CNBC
-http://192.168.178.23:8081/api/wlm/live/cnbc
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/cnbc" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="CNBC" pipe:1
 #EXTINF:0001 tvg-id="bbc_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bbc_1_hd.png", BBC One HD
-http://192.168.178.23:8081/api/wlm/live/bbc_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bbc_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="BBC One HD" pipe:1
 #EXTINF:0001 tvg-id="bbc_2_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bbc_2_hd.png", BBC Two HD
-http://192.168.178.23:8081/api/wlm/live/bbc_2_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bbc_2_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="BBC Two HD" pipe:1
 #EXTINF:0001 tvg-id="film_4" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/film_4.png", Film 4
-http://192.168.178.23:8081/api/wlm/live/film_4
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/film_4" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Film 4" pipe:1
 #EXTINF:0001 tvg-id="canale_5_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/canale_5_hd.png", Canale 5 HD
-http://192.168.178.23:8081/api/wlm/live/canale_5_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/canale_5_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Canale 5 HD" pipe:1
 #EXTINF:0001 tvg-id="rete_4_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rete_4_hd.png", Rete4 HD
-http://192.168.178.23:8081/api/wlm/live/rete_4_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rete_4_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Rete4 HD" pipe:1
 #EXTINF:0001 tvg-id="euronews_en" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/euronews_en.png", Euronews EN
-http://192.168.178.23:8081/api/wlm/live/euronews_en
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/euronews_en" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Euronews EN" pipe:1
 #EXTINF:0001 tvg-id="italia_1_hd" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/italia_1_hd.png", Italia 1 HD
-http://192.168.178.23:8081/api/wlm/live/italia_1_hd
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/italia_1_hd" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Italia 1 HD" pipe:1
 #EXTINF:0001 tvg-id="bbc_3" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bbc_3.png", BBC three
-http://192.168.178.23:8081/api/wlm/live/bbc_3
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bbc_3" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="BBC three" pipe:1
 #EXTINF:0001 tvg-id="4seven_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/4seven_uk.png", 4Seven
-http://192.168.178.23:8081/api/wlm/live/4seven_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/4seven_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="4Seven" pipe:1
 #EXTINF:0001 tvg-id="my5_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/my5_uk.png", 5SELECT
-http://192.168.178.23:8081/api/wlm/live/my5_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/my5_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="5SELECT" pipe:1
 #EXTINF:0001 tvg-id="5spike_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/5spike_uk.png", 5Spike
-http://192.168.178.23:8081/api/wlm/live/5spike_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/5spike_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="5Spike" pipe:1
 #EXTINF:0001 tvg-id="5usa" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/5usa.png", 5USA
-http://192.168.178.23:8081/api/wlm/live/5usa
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/5usa" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="5USA" pipe:1
 #EXTINF:0001 tvg-id="bbc-four" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bbc-four.png", BBC Four
-http://192.168.178.23:8081/api/wlm/live/bbc-four
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bbc-four" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="BBC Four" pipe:1
 #EXTINF:0001 tvg-id="bbc-parliament" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bbc-parliament.png", BBC Parliament
-http://192.168.178.23:8081/api/wlm/live/bbc-parliament
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bbc-parliament" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="BBC Parliament" pipe:1
 #EXTINF:0001 tvg-id="bibeltv" group-title="Culture" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/bibeltv.png", Bibel TV
-http://192.168.178.23:8081/api/wlm/live/bibeltv
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/bibeltv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Bibel TV" pipe:1
 #EXTINF:0001 tvg-id="cbeebies" group-title="Kids" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/cbeebies.png", CBeebies
-http://192.168.178.23:8081/api/wlm/live/cbeebies
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/cbeebies" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="CBeebies" pipe:1
 #EXTINF:0001 tvg-id="challenge_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/challenge_uk.png", Challenge
-http://192.168.178.23:8081/api/wlm/live/challenge_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/challenge_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Challenge" pipe:1
 #EXTINF:0001 tvg-id="chart_show_tv_uk" group-title="Music" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/chart_show_tv_uk.png", Chart Show TV
-http://192.168.178.23:8081/api/wlm/live/chart_show_tv_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/chart_show_tv_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Chart Show TV" pipe:1
+#EXTINF:0001 tvg-id="clubland_tv" group-title="Music" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/clubland_tv.png", Clubland TV
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/clubland_tv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Clubland TV" pipe:1
 #EXTINF:0001 tvg-id="dave_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/dave_uk.png", Dave
-http://192.168.178.23:8081/api/wlm/live/dave_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/dave_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Dave" pipe:1
 #EXTINF:0001 tvg-id="daf" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/daf.png", Der Aktionär TV
-http://192.168.178.23:8081/api/wlm/live/daf
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/daf" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Der Aktionär TV" pipe:1
 #EXTINF:0001 tvg-id="deutschewelle_de" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/deutschewelle_de.png", Deutsche Welle
-http://192.168.178.23:8081/api/wlm/live/deutschewelle_de
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/deutschewelle_de" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Deutsche Welle" pipe:1
 #EXTINF:0001 tvg-id="deutsche-welle" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/deutsche-welle.png", Deutsche Welle English
-http://192.168.178.23:8081/api/wlm/live/deutsche-welle
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/deutsche-welle" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Deutsche Welle English" pipe:1
 #EXTINF:0001 tvg-id="drama_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/drama_uk.png", Drama
-http://192.168.178.23:8081/api/wlm/live/drama_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/drama_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Drama" pipe:1
 #EXTINF:0001 tvg-id="eotv" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/eotv.png", eoTV
-http://192.168.178.23:8081/api/wlm/live/eotv
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/eotv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="eoTV" pipe:1
 #EXTINF:0001 tvg-id="food_network_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/food_network_uk.png", Food Network
-http://192.168.178.23:8081/api/wlm/live/food_network_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/food_network_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Food Network" pipe:1
 #EXTINF:0001 tvg-id="france-24-en" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/france-24-en.png", France 24 EN
-http://192.168.178.23:8081/api/wlm/live/france-24-en
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/france-24-en" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="France 24 EN" pipe:1
 #EXTINF:0001 tvg-id="freesports_uk" group-title="Sports" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/freesports_uk.png", FreeSports
-http://192.168.178.23:8081/api/wlm/live/freesports_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/freesports_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="FreeSports" pipe:1
 #EXTINF:0001 tvg-id="gotv_austria" group-title="Music" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/gotv_austria.png", GoTV
-http://192.168.178.23:8081/api/wlm/live/gotv_austria
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/gotv_austria" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="GoTV" pipe:1
 #EXTINF:0001 tvg-id="health_tv_de" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/health_tv_de.png", Health.tv
-http://192.168.178.23:8081/api/wlm/live/health_tv_de
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/health_tv_de" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Health.tv" pipe:1
 #EXTINF:0001 tvg-id="i24news_english" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/i24news_english.png", i24NEWS EN
-http://192.168.178.23:8081/api/wlm/live/i24news_english
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/i24news_english" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="i24NEWS EN" pipe:1
 #EXTINF:0001 tvg-id="kiss_tv" group-title="Music" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/kiss_tv.png", Kiss TV
-http://192.168.178.23:8081/api/wlm/live/kiss_tv
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/kiss_tv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Kiss TV" pipe:1
 #EXTINF:0001 tvg-id="nasa_tv" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/nasa_tv.png", NASA TV
-http://192.168.178.23:8081/api/wlm/live/nasa_tv
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/nasa_tv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="NASA TV" pipe:1
 #EXTINF:0001 tvg-id="chilled_tv" group-title="Music" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/chilled_tv.png", Now 90s
-http://192.168.178.23:8081/api/wlm/live/chilled_tv
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/chilled_tv" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Now 90s" pipe:1
 #EXTINF:0001 tvg-id="paramount_network_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/paramount_network_uk.png", Paramount Network
-http://192.168.178.23:8081/api/wlm/live/paramount_network_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/paramount_network_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Paramount Network" pipe:1
 #EXTINF:0001 tvg-id="pbs_america" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/pbs_america.png", PBS America
-http://192.168.178.23:8081/api/wlm/live/pbs_america
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/pbs_america" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="PBS America" pipe:1
 #EXTINF:0001 tvg-id="pick_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/pick_uk.png", Pick
-http://192.168.178.23:8081/api/wlm/live/pick_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/pick_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Pick" pipe:1
 #EXTINF:0001 tvg-id="r9_at" group-title="Regional" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/r9_at.png", R9 Österreich
-http://192.168.178.23:8081/api/wlm/live/r9_at
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/r9_at" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="R9 Österreich" pipe:1
 #EXTINF:0001 tvg-id="rocketbeans" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rocketbeans.png", Rocket Beans TV
-http://192.168.178.23:8081/api/wlm/live/rocketbeans
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rocketbeans" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Rocket Beans TV" pipe:1
 #EXTINF:0001 tvg-id="rt_doc" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/rt_doc.png", RT Doc
-http://192.168.178.23:8081/api/wlm/live/rt_doc
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/rt_doc" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="RT Doc" pipe:1
 #EXTINF:0001 tvg-id="skynews-intl" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/skynews-intl.png", Sky News
-http://192.168.178.23:8081/api/wlm/live/skynews-intl
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/skynews-intl" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Sky News" pipe:1
 #EXTINF:0001 tvg-id="sky_sport_news_de" group-title="Sports" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/sky_sport_news_de.png", Sky Sport News
-http://192.168.178.23:8081/api/wlm/live/sky_sport_news_de
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/sky_sport_news_de" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Sky Sport News" pipe:1
 #EXTINF:0001 tvg-id="einsextra" group-title="Information" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/einsextra.png", tagesschau24
-http://192.168.178.23:8081/api/wlm/live/einsextra
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/einsextra" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="tagesschau24" pipe:1
 #EXTINF:0001 tvg-id="travelchannel_en" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/travelchannel_en.png", Travel Channel
-http://192.168.178.23:8081/api/wlm/live/travelchannel_en
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/travelchannel_en" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Travel Channel" pipe:1
 #EXTINF:0001 tvg-id="yesterday_uk" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/yesterday_uk.png", Yesterday
-http://192.168.178.23:8081/api/wlm/live/yesterday_uk
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/yesterday_uk" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="Yesterday" pipe:1
 #EXTINF:0001 tvg-id="hgtv_de" group-title="Entertainment" tvg-logo="https://resources.wilmaa.com/logos/single/dark/center/360x120px/hgtv_de.png", HGTV
-http://192.168.178.23:8081/api/wlm/live/hgtv_de
+pipe:///usr/bin/ffmpeg -loglevel fatal -re -i "http://192.168.178.23:8081/api/wlm/live/hgtv_de" -map 0:0 -map 0:1 -map 0:2? -c:a:0 copy -c:a:1 copy -c:v copy -f mpegts -metadata service_name="HGTV" pipe:1
